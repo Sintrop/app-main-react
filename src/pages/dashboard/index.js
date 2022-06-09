@@ -1,9 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import {useParams, useNavigate} from 'react-router-dom';
+import './dashboard.css';
+
+import Menu from '../../components/Menu';
+import HeaderAccount from '../../components/HeaderAccount';
+import Tabs from '../../components/Tabs';
 
 export default function Dashboard(){
     const navigate = useNavigate();
     const {walletAddress} = useParams();
+    const [activeTab, setActiveTab] = useState('isa');
 
     useEffect(() => {
         async function checkConnection(){
@@ -34,12 +40,19 @@ export default function Dashboard(){
                 })
             }
         }
-        checkConnection()
+        checkConnection();
     },[])
 
     return(
-        <div>
-            <h3>Carteira conectada: {walletAddress}</h3>
+        <div className='container-dashboard'>
+            <Menu 
+                changeTab={(tab) => setActiveTab(tab)}
+            />
+
+            <div className='content-dashboard'>
+                <HeaderAccount wallet={walletAddress}/>
+                <Tabs activeTab={activeTab} wallet={walletAddress}/>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,282 @@
+{
+  "contractName": "PoolInterface",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "approve",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withDraw",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "allowance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.2+commit.661d1103\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"allowance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"approve\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withDraw\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/PoolInterface.sol\":\"PoolInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/PoolInterface.sol\":{\"keccak256\":\"0xe37cb641490b5bcade006eb779cb80870a9d64c2f07f26812bcb08d54c376cfb\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://cfe7e8ff7c0499af930583b6d9bd637878c5fb3fc2f8a7204c5a3f3901042cb6\",\"dweb:/ipfs/QmXe2jf16RTWr4DLaDqGNycaUPMsam2uvrkxsFY4fy7V3f\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\ninterface PoolInterface {\r\n  /*\r\n   * @dev Allow a user approve tokens from pool to your account\r\n   */\r\n  function approve() external returns (bool);\r\n\r\n  /*\r\n   * @dev Allow a user withdraw (transfer) your tokens approved to your account\r\n   */\r\n  function withDraw() external returns (bool);\r\n\r\n  /*\r\n   * @dev Allow a user know how much tokens his has approved from pool\r\n   */\r\n  function allowance() external view returns (uint256);\r\n}\r\n",
+  "sourcePath": "/app/contracts/PoolInterface.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/PoolInterface.sol",
+    "exportedSymbols": {
+      "PoolInterface": [
+        2563
+      ]
+    },
+    "id": 2564,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2547,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<=",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "37:32:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2563,
+        "linearizedBaseContracts": [
+          2563
+        ],
+        "name": "PoolInterface",
+        "nameLocation": "83:13:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "12424e3f",
+            "id": 2552,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "approve",
+            "nameLocation": "189:7:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2548,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "196:2:12"
+            },
+            "returnParameters": {
+              "id": 2551,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2550,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2552,
+                  "src": "217:4:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2549,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "217:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "216:6:12"
+            },
+            "scope": 2563,
+            "src": "180:43:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "0fdb1c10",
+            "id": 2557,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "withDraw",
+            "nameLocation": "332:8:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2553,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "340:2:12"
+            },
+            "returnParameters": {
+              "id": 2556,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2555,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2557,
+                  "src": "361:4:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2554,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "361:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "360:6:12"
+            },
+            "scope": 2563,
+            "src": "323:44:12",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "de242ff4",
+            "id": 2562,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "allowance",
+            "nameLocation": "467:9:12",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2558,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "476:2:12"
+            },
+            "returnParameters": {
+              "id": 2561,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2560,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2562,
+                  "src": "502:7:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2559,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "502:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "501:9:12"
+            },
+            "scope": 2563,
+            "src": "458:53:12",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2564,
+        "src": "73:441:12"
+      }
+    ],
+    "src": "37:479:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.2+commit.661d1103.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-05-24T17:04:41.563Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
