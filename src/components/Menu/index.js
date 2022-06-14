@@ -33,6 +33,7 @@ export default function Menu({changeTab}){
                     <ItemsList 
                         data={item} 
                         changeTab={(tab) => changeTab(tab)}
+                        key={item.id}
                     />
                 )
             })}

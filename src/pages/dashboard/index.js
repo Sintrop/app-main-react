@@ -4,12 +4,16 @@ import './dashboard.css';
 
 import Menu from '../../components/Menu';
 import HeaderAccount from '../../components/HeaderAccount';
-import Tabs from '../../components/Tabs';
+import TabIndicator from '../../components/TabIndicator';
+import Register from '../../components/Tabs/Register';
+
+import CheckUserRegister from '../../services/checkUserRegister';
 
 export default function Dashboard(){
     const navigate = useNavigate();
     const {walletAddress} = useParams();
     const [activeTab, setActiveTab] = useState('isa');
+    const {user} = CheckUserRegister({walletAddress: walletAddress});
 
     useEffect(() => {
         async function checkConnection(){
@@ -41,7 +45,15 @@ export default function Dashboard(){
             }
         }
         checkConnection();
-    },[])
+    },[]);
+
+    useEffect(() => {
+        if(user == 0){
+            setActiveTab('register');
+        }else{
+            setActiveTab('isa');
+        }
+    }, [user, activeTab])
 
     return(
         <div className='container-dashboard'>
@@ -51,7 +63,11 @@ export default function Dashboard(){
 
             <div className='content-dashboard'>
                 <HeaderAccount wallet={walletAddress}/>
-                <Tabs activeTab={activeTab} wallet={walletAddress}/>
+                <TabIndicator activeTab={activeTab} wallet={walletAddress}/>
+
+                {activeTab === 'register' && (
+                    <Register/>
+                )}
             </div>
         </div>
     )
