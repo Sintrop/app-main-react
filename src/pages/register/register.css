@@ -1,0 +1,42 @@
+.container{
+  height: 500px;
+  width: 100%;
+  margin: 50px auto 0;
+  display: flex;
+  left: 0;
+}
+
+.container form{
+  width: 870px;
+  height: 100%;
+  margin-left: 150px;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.container input, select {
+  width: 200px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.container button{ 
+  margin-top: 15px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(204, 37, 226);
+  color: rgb(204, 37, 226);
+  border-radius: 4px;
+  background: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.container button:hover{ 
+  color: rgb(204, 37, 226, 0.7);
+  border-color: rgb(204, 37, 226, 0.5);
+}

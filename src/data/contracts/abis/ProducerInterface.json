@@ -29,20 +29,20 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\ninterface ProducerInterface {\r\n  struct Producer {\r\n    uint256 id;\r\n    address producerWallet;\r\n    UserType userType;\r\n    string name;\r\n    string document;\r\n    string documentType;\r\n    bool recentInspection;\r\n    uint256 totalRequests;\r\n    int256 isaPoints;\r\n    TokenApprove tokenApprove;\r\n    PropertyAddress propertyAddress;\r\n  }\r\n\r\n  enum UserType {\r\n    PRODUCER,\r\n    ACTIVIST,\r\n    RESEARCHER,\r\n    DEVELOPER,\r\n    ADVISER,\r\n    CONTRIBUTOR,\r\n    INVESTOR\r\n  }\r\n\r\n  struct TokenApprove {\r\n    uint256 allowed;\r\n    bool withdrewToken;\r\n  }\r\n\r\n  struct PropertyAddress {\r\n    string country;\r\n    string state;\r\n    string city;\r\n    string cep;\r\n  }\r\n\r\n  function addUser(address addr, UserType userType) external;\r\n}\r\n",
-  "sourcePath": "C:\\Users\\emano\\Documents\\Sintrop\\BackEnd\\contracts\\ProducerInterface.sol",
+  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts\\contracts\\ProducerInterface.sol",
   "ast": {
     "absolutePath": "project:/contracts/ProducerInterface.sol",
     "exportedSymbols": {
       "ProducerInterface": [
-        2986
+        2988
       ]
     },
-    "id": 2987,
+    "id": 2989,
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2929,
+        "id": 2931,
         "literals": [
           "solidity",
           ">=",
@@ -61,9 +61,9 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 2986,
+        "id": 2988,
         "linearizedBaseContracts": [
-          2986
+          2988
         ],
         "name": "ProducerInterface",
         "nameLocation": "83:17:15",
@@ -71,16 +71,16 @@
         "nodes": [
           {
             "canonicalName": "ProducerInterface.Producer",
-            "id": 2955,
+            "id": 2957,
             "members": [
               {
                 "constant": false,
-                "id": 2931,
+                "id": 2933,
                 "mutability": "mutable",
                 "name": "id",
                 "nameLocation": "137:2:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "129:10:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -89,7 +89,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 2930,
+                  "id": 2932,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "129:7:15",
@@ -102,12 +102,12 @@
               },
               {
                 "constant": false,
-                "id": 2933,
+                "id": 2935,
                 "mutability": "mutable",
                 "name": "producerWallet",
                 "nameLocation": "154:14:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "146:22:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -116,7 +116,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 2932,
+                  "id": 2934,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "146:7:15",
@@ -130,33 +130,33 @@
               },
               {
                 "constant": false,
-                "id": 2936,
+                "id": 2938,
                 "mutability": "mutable",
                 "name": "userType",
                 "nameLocation": "184:8:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "175:17:15",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_UserType_$2963",
+                  "typeIdentifier": "t_enum$_UserType_$2965",
                   "typeString": "enum ProducerInterface.UserType"
                 },
                 "typeName": {
-                  "id": 2935,
+                  "id": 2937,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 2934,
+                    "id": 2936,
                     "name": "UserType",
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 2963,
+                    "referencedDeclaration": 2965,
                     "src": "175:8:15"
                   },
-                  "referencedDeclaration": 2963,
+                  "referencedDeclaration": 2965,
                   "src": "175:8:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_UserType_$2963",
+                    "typeIdentifier": "t_enum$_UserType_$2965",
                     "typeString": "enum ProducerInterface.UserType"
                   }
                 },
@@ -164,12 +164,12 @@
               },
               {
                 "constant": false,
-                "id": 2938,
+                "id": 2940,
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "206:4:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "199:11:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -178,7 +178,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2937,
+                  "id": 2939,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "199:6:15",
@@ -191,12 +191,12 @@
               },
               {
                 "constant": false,
-                "id": 2940,
+                "id": 2942,
                 "mutability": "mutable",
                 "name": "document",
                 "nameLocation": "224:8:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "217:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -205,7 +205,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2939,
+                  "id": 2941,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "217:6:15",
@@ -218,12 +218,12 @@
               },
               {
                 "constant": false,
-                "id": 2942,
+                "id": 2944,
                 "mutability": "mutable",
                 "name": "documentType",
                 "nameLocation": "246:12:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "239:19:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -232,7 +232,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2941,
+                  "id": 2943,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "239:6:15",
@@ -245,12 +245,12 @@
               },
               {
                 "constant": false,
-                "id": 2944,
+                "id": 2946,
                 "mutability": "mutable",
                 "name": "recentInspection",
                 "nameLocation": "270:16:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "265:21:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -259,7 +259,7 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 2943,
+                  "id": 2945,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "265:4:15",
@@ -272,12 +272,12 @@
               },
               {
                 "constant": false,
-                "id": 2946,
+                "id": 2948,
                 "mutability": "mutable",
                 "name": "totalRequests",
                 "nameLocation": "301:13:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "293:21:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -286,7 +286,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 2945,
+                  "id": 2947,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "293:7:15",
@@ -299,12 +299,12 @@
               },
               {
                 "constant": false,
-                "id": 2948,
+                "id": 2950,
                 "mutability": "mutable",
                 "name": "isaPoints",
                 "nameLocation": "328:9:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "321:16:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -313,7 +313,7 @@
                   "typeString": "int256"
                 },
                 "typeName": {
-                  "id": 2947,
+                  "id": 2949,
                   "name": "int256",
                   "nodeType": "ElementaryTypeName",
                   "src": "321:6:15",
@@ -326,33 +326,33 @@
               },
               {
                 "constant": false,
-                "id": 2951,
+                "id": 2953,
                 "mutability": "mutable",
                 "name": "tokenApprove",
                 "nameLocation": "357:12:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "344:25:15",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_TokenApprove_$2968_storage_ptr",
+                  "typeIdentifier": "t_struct$_TokenApprove_$2970_storage_ptr",
                   "typeString": "struct ProducerInterface.TokenApprove"
                 },
                 "typeName": {
-                  "id": 2950,
+                  "id": 2952,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 2949,
+                    "id": 2951,
                     "name": "TokenApprove",
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 2968,
+                    "referencedDeclaration": 2970,
                     "src": "344:12:15"
                   },
-                  "referencedDeclaration": 2968,
+                  "referencedDeclaration": 2970,
                   "src": "344:12:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_TokenApprove_$2968_storage_ptr",
+                    "typeIdentifier": "t_struct$_TokenApprove_$2970_storage_ptr",
                     "typeString": "struct ProducerInterface.TokenApprove"
                   }
                 },
@@ -360,33 +360,33 @@
               },
               {
                 "constant": false,
-                "id": 2954,
+                "id": 2956,
                 "mutability": "mutable",
                 "name": "propertyAddress",
                 "nameLocation": "392:15:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2955,
+                "scope": 2957,
                 "src": "376:31:15",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_PropertyAddress_$2977_storage_ptr",
+                  "typeIdentifier": "t_struct$_PropertyAddress_$2979_storage_ptr",
                   "typeString": "struct ProducerInterface.PropertyAddress"
                 },
                 "typeName": {
-                  "id": 2953,
+                  "id": 2955,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 2952,
+                    "id": 2954,
                     "name": "PropertyAddress",
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 2977,
+                    "referencedDeclaration": 2979,
                     "src": "376:15:15"
                   },
-                  "referencedDeclaration": 2977,
+                  "referencedDeclaration": 2979,
                   "src": "376:15:15",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_PropertyAddress_$2977_storage_ptr",
+                    "typeIdentifier": "t_struct$_PropertyAddress_$2979_storage_ptr",
                     "typeString": "struct ProducerInterface.PropertyAddress"
                   }
                 },
@@ -396,58 +396,58 @@
             "name": "Producer",
             "nameLocation": "113:8:15",
             "nodeType": "StructDefinition",
-            "scope": 2986,
+            "scope": 2988,
             "src": "106:307:15",
             "visibility": "public"
           },
           {
             "canonicalName": "ProducerInterface.UserType",
-            "id": 2963,
+            "id": 2965,
             "members": [
               {
-                "id": 2956,
+                "id": 2958,
                 "name": "PRODUCER",
                 "nameLocation": "440:8:15",
                 "nodeType": "EnumValue",
                 "src": "440:8:15"
               },
               {
-                "id": 2957,
+                "id": 2959,
                 "name": "ACTIVIST",
                 "nameLocation": "455:8:15",
                 "nodeType": "EnumValue",
                 "src": "455:8:15"
               },
               {
-                "id": 2958,
+                "id": 2960,
                 "name": "RESEARCHER",
                 "nameLocation": "470:10:15",
                 "nodeType": "EnumValue",
                 "src": "470:10:15"
               },
               {
-                "id": 2959,
+                "id": 2961,
                 "name": "DEVELOPER",
                 "nameLocation": "487:9:15",
                 "nodeType": "EnumValue",
                 "src": "487:9:15"
               },
               {
-                "id": 2960,
+                "id": 2962,
                 "name": "ADVISER",
                 "nameLocation": "503:7:15",
                 "nodeType": "EnumValue",
                 "src": "503:7:15"
               },
               {
-                "id": 2961,
+                "id": 2963,
                 "name": "CONTRIBUTOR",
                 "nameLocation": "517:11:15",
                 "nodeType": "EnumValue",
                 "src": "517:11:15"
               },
               {
-                "id": 2962,
+                "id": 2964,
                 "name": "INVESTOR",
                 "nameLocation": "535:8:15",
                 "nodeType": "EnumValue",
@@ -461,16 +461,16 @@
           },
           {
             "canonicalName": "ProducerInterface.TokenApprove",
-            "id": 2968,
+            "id": 2970,
             "members": [
               {
                 "constant": false,
-                "id": 2965,
+                "id": 2967,
                 "mutability": "mutable",
                 "name": "allowed",
                 "nameLocation": "589:7:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2968,
+                "scope": 2970,
                 "src": "581:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -479,7 +479,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 2964,
+                  "id": 2966,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "581:7:15",
@@ -492,12 +492,12 @@
               },
               {
                 "constant": false,
-                "id": 2967,
+                "id": 2969,
                 "mutability": "mutable",
                 "name": "withdrewToken",
                 "nameLocation": "608:13:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2968,
+                "scope": 2970,
                 "src": "603:18:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -506,7 +506,7 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 2966,
+                  "id": 2968,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "603:4:15",
@@ -521,22 +521,22 @@
             "name": "TokenApprove",
             "nameLocation": "561:12:15",
             "nodeType": "StructDefinition",
-            "scope": 2986,
+            "scope": 2988,
             "src": "554:73:15",
             "visibility": "public"
           },
           {
             "canonicalName": "ProducerInterface.PropertyAddress",
-            "id": 2977,
+            "id": 2979,
             "members": [
               {
                 "constant": false,
-                "id": 2970,
+                "id": 2972,
                 "mutability": "mutable",
                 "name": "country",
                 "nameLocation": "670:7:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2977,
+                "scope": 2979,
                 "src": "663:14:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -545,7 +545,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2969,
+                  "id": 2971,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "663:6:15",
@@ -558,12 +558,12 @@
               },
               {
                 "constant": false,
-                "id": 2972,
+                "id": 2974,
                 "mutability": "mutable",
                 "name": "state",
                 "nameLocation": "691:5:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2977,
+                "scope": 2979,
                 "src": "684:12:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -572,7 +572,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2971,
+                  "id": 2973,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "684:6:15",
@@ -585,12 +585,12 @@
               },
               {
                 "constant": false,
-                "id": 2974,
+                "id": 2976,
                 "mutability": "mutable",
                 "name": "city",
                 "nameLocation": "710:4:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2977,
+                "scope": 2979,
                 "src": "703:11:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -599,7 +599,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2973,
+                  "id": 2975,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "703:6:15",
@@ -612,12 +612,12 @@
               },
               {
                 "constant": false,
-                "id": 2976,
+                "id": 2978,
                 "mutability": "mutable",
                 "name": "cep",
                 "nameLocation": "728:3:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2977,
+                "scope": 2979,
                 "src": "721:10:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -626,7 +626,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2975,
+                  "id": 2977,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "721:6:15",
@@ -641,13 +641,13 @@
             "name": "PropertyAddress",
             "nameLocation": "640:15:15",
             "nodeType": "StructDefinition",
-            "scope": 2986,
+            "scope": 2988,
             "src": "633:104:15",
             "visibility": "public"
           },
           {
             "functionSelector": "9c3eead9",
-            "id": 2985,
+            "id": 2987,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -655,17 +655,17 @@
             "nameLocation": "752:7:15",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2983,
+              "id": 2985,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2979,
+                  "id": 2981,
                   "mutability": "mutable",
                   "name": "addr",
                   "nameLocation": "768:4:15",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2985,
+                  "scope": 2987,
                   "src": "760:12:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -674,7 +674,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2978,
+                    "id": 2980,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "760:7:15",
@@ -688,33 +688,33 @@
                 },
                 {
                   "constant": false,
-                  "id": 2982,
+                  "id": 2984,
                   "mutability": "mutable",
                   "name": "userType",
                   "nameLocation": "783:8:15",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2985,
+                  "scope": 2987,
                   "src": "774:17:15",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_UserType_$2963",
+                    "typeIdentifier": "t_enum$_UserType_$2965",
                     "typeString": "enum ProducerInterface.UserType"
                   },
                   "typeName": {
-                    "id": 2981,
+                    "id": 2983,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 2980,
+                      "id": 2982,
                       "name": "UserType",
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 2963,
+                      "referencedDeclaration": 2965,
                       "src": "774:8:15"
                     },
-                    "referencedDeclaration": 2963,
+                    "referencedDeclaration": 2965,
                     "src": "774:8:15",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_UserType_$2963",
+                      "typeIdentifier": "t_enum$_UserType_$2965",
                       "typeString": "enum ProducerInterface.UserType"
                     }
                   },
@@ -724,19 +724,19 @@
               "src": "759:33:15"
             },
             "returnParameters": {
-              "id": 2984,
+              "id": 2986,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "801:0:15"
             },
-            "scope": 2986,
+            "scope": 2988,
             "src": "743:59:15",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 2987,
+        "scope": 2989,
         "src": "73:732:15"
       }
     ],
@@ -748,7 +748,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-10T23:37:22.952Z",
+  "updatedAt": "2022-06-04T03:08:49.709Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
