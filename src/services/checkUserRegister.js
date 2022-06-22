@@ -16,7 +16,7 @@ function CheckUserRegister({walletAddress}) {
             contract.methods.getUser(walletAddress).call({from: contractAddress})
             .then((res) => {
                 //Response type of user
-                setUser(res)
+                setUser('2')
             })
             
         }catch(error){

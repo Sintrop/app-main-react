@@ -70,6 +70,9 @@ To request a Pull Request, add other members to review the code before merging.
 
 ## How to run the project
 
+after npm install, run the following command:
+### `npm install --save-dev react-app-rewired crypto-browserify stream-browserify assert stream-http https-browserify os-browserify url buffer process`
+
 ### `npm start`
 
 Runs the app in the development mode.\

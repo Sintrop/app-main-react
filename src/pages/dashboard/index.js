@@ -2,11 +2,16 @@ import React, {useEffect, useState} from 'react';
 import {useParams, useNavigate} from 'react-router-dom';
 import './dashboard.css';
 
+//Components
 import Menu from '../../components/Menu';
 import HeaderAccount from '../../components/HeaderAccount';
 import TabIndicator from '../../components/TabIndicator';
-import Register from '../../components/Tabs/Register';
 
+//Tabs
+import Register from '../../components/Tabs/Register';
+import ISA from '../../components/Tabs/ISA';
+
+//Services
 import CheckUserRegister from '../../services/checkUserRegister';
 
 export default function Dashboard(){
@@ -50,10 +55,10 @@ export default function Dashboard(){
     useEffect(() => {
         if(user == 0){
             setActiveTab('register');
-        }else{
-            setActiveTab('isa');
+            return;
         }
-    }, [user, activeTab])
+        setActiveTab('isa');
+    }, [user]);
 
     return(
         <div className='container-dashboard'>
@@ -67,6 +72,10 @@ export default function Dashboard(){
 
                 {activeTab === 'register' && (
                     <Register/>
+                )}
+
+                {activeTab === 'isa' && (
+                    <ISA user={user} walletAddress={walletAddress}/>
                 )}
             </div>
         </div>
