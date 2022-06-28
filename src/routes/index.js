@@ -2,7 +2,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 import Login from "../pages/login";
 import Dashboard from '../pages/dashboard';
-import Register from "../pages/register";
+import Register from "../components/Tabs/Register";
 
 export default function Router(){
     return(
