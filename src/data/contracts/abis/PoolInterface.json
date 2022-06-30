@@ -50,20 +50,35 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\ninterface PoolInterface {\r\n  /*\r\n   * @dev Allow a user approve tokens from pool to your account\r\n   */\r\n  function approve() external returns (bool);\r\n\r\n  /*\r\n   * @dev Allow a user withdraw (transfer) your tokens approved to your account\r\n   */\r\n  function withDraw() external returns (bool);\r\n\r\n  /*\r\n   * @dev Allow a user know how much tokens his has approved from pool\r\n   */\r\n  function allowance() external view returns (uint256);\r\n}\r\n",
+<<<<<<< HEAD
   "sourcePath": "C:\\Users\\emano\\Documents\\Sintrop\\core-contracts\\contracts\\PoolInterface.sol",
+=======
+  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts\\contracts\\PoolInterface.sol",
+>>>>>>> bru_develop_register_page
   "ast": {
     "absolutePath": "project:/contracts/PoolInterface.sol",
     "exportedSymbols": {
       "PoolInterface": [
+<<<<<<< HEAD
         2779
       ]
     },
     "id": 2780,
+=======
+        2565
+      ]
+    },
+    "id": 2566,
+>>>>>>> bru_develop_register_page
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
+<<<<<<< HEAD
         "id": 2763,
+=======
+        "id": 2549,
+>>>>>>> bru_develop_register_page
         "literals": [
           "solidity",
           ">=",
@@ -82,9 +97,15 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
+<<<<<<< HEAD
         "id": 2779,
         "linearizedBaseContracts": [
           2779
+=======
+        "id": 2565,
+        "linearizedBaseContracts": [
+          2565
+>>>>>>> bru_develop_register_page
         ],
         "name": "PoolInterface",
         "nameLocation": "83:13:14",
@@ -92,7 +113,11 @@
         "nodes": [
           {
             "functionSelector": "12424e3f",
+<<<<<<< HEAD
             "id": 2768,
+=======
+            "id": 2554,
+>>>>>>> bru_develop_register_page
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -100,24 +125,41 @@
             "nameLocation": "189:7:14",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 2764,
+=======
+              "id": 2550,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "196:2:14"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 2767,
+=======
+              "id": 2553,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 2766,
+=======
+                  "id": 2552,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 2768,
                   "src": "217:4:14",
+=======
+                  "scope": 2554,
+                  "src": "217:4:12",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -125,7 +167,11 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 2765,
+=======
+                    "id": 2551,
+>>>>>>> bru_develop_register_page
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "217:4:14",
@@ -139,15 +185,24 @@
               ],
               "src": "216:6:14"
             },
+<<<<<<< HEAD
             "scope": 2779,
             "src": "180:43:14",
+=======
+            "scope": 2565,
+            "src": "180:43:12",
+>>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "0fdb1c10",
+<<<<<<< HEAD
             "id": 2773,
+=======
+            "id": 2559,
+>>>>>>> bru_develop_register_page
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -155,24 +210,41 @@
             "nameLocation": "332:8:14",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 2769,
+=======
+              "id": 2555,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "340:2:14"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 2772,
+=======
+              "id": 2558,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 2771,
+=======
+                  "id": 2557,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 2773,
                   "src": "361:4:14",
+=======
+                  "scope": 2559,
+                  "src": "361:4:12",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -180,7 +252,11 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 2770,
+=======
+                    "id": 2556,
+>>>>>>> bru_develop_register_page
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "361:4:14",
@@ -194,15 +270,24 @@
               ],
               "src": "360:6:14"
             },
+<<<<<<< HEAD
             "scope": 2779,
             "src": "323:44:14",
+=======
+            "scope": 2565,
+            "src": "323:44:12",
+>>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "de242ff4",
+<<<<<<< HEAD
             "id": 2778,
+=======
+            "id": 2564,
+>>>>>>> bru_develop_register_page
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -210,24 +295,41 @@
             "nameLocation": "467:9:14",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 2774,
+=======
+              "id": 2560,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "476:2:14"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 2777,
+=======
+              "id": 2563,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 2776,
+=======
+                  "id": 2562,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 2778,
                   "src": "502:7:14",
+=======
+                  "scope": 2564,
+                  "src": "502:7:12",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -235,7 +337,11 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 2775,
+=======
+                    "id": 2561,
+>>>>>>> bru_develop_register_page
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "502:7:14",
@@ -249,15 +355,25 @@
               ],
               "src": "501:9:14"
             },
+<<<<<<< HEAD
             "scope": 2779,
             "src": "458:53:14",
+=======
+            "scope": 2565,
+            "src": "458:53:12",
+>>>>>>> bru_develop_register_page
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
+<<<<<<< HEAD
         "scope": 2780,
         "src": "73:441:14"
+=======
+        "scope": 2566,
+        "src": "73:441:12"
+>>>>>>> bru_develop_register_page
       }
     ],
     "src": "37:479:14"
@@ -268,7 +384,11 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
+<<<<<<< HEAD
   "updatedAt": "2022-06-29T23:40:03.224Z",
+=======
+  "updatedAt": "2022-06-04T03:08:49.642Z",
+>>>>>>> bru_develop_register_page
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -29,20 +29,35 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\ninterface ProducerInterface {\r\n  struct Producer {\r\n    uint256 id;\r\n    address producerWallet;\r\n    UserType userType;\r\n    string name;\r\n    string document;\r\n    string documentType;\r\n    bool recentInspection;\r\n    uint256 totalRequests;\r\n    int256 isaPoints;\r\n    TokenApprove tokenApprove;\r\n    PropertyAddress propertyAddress;\r\n  }\r\n\r\n  enum UserType {\r\n    PRODUCER,\r\n    ACTIVIST,\r\n    RESEARCHER,\r\n    DEVELOPER,\r\n    ADVISER,\r\n    CONTRIBUTOR,\r\n    INVESTOR\r\n  }\r\n\r\n  struct TokenApprove {\r\n    uint256 allowed;\r\n    bool withdrewToken;\r\n  }\r\n\r\n  struct PropertyAddress {\r\n    string country;\r\n    string state;\r\n    string city;\r\n    string cep;\r\n  }\r\n\r\n  function addUser(address addr, UserType userType) external;\r\n}\r\n",
+<<<<<<< HEAD
   "sourcePath": "C:\\Users\\emano\\Documents\\Sintrop\\core-contracts\\contracts\\ProducerInterface.sol",
+=======
+  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts\\contracts\\ProducerInterface.sol",
+>>>>>>> bru_develop_register_page
   "ast": {
     "absolutePath": "project:/contracts/ProducerInterface.sol",
     "exportedSymbols": {
       "ProducerInterface": [
+<<<<<<< HEAD
         3220
       ]
     },
     "id": 3221,
+=======
+        2988
+      ]
+    },
+    "id": 2989,
+>>>>>>> bru_develop_register_page
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
+<<<<<<< HEAD
         "id": 3163,
+=======
+        "id": 2931,
+>>>>>>> bru_develop_register_page
         "literals": [
           "solidity",
           ">=",
@@ -61,9 +76,15 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
+<<<<<<< HEAD
         "id": 3220,
         "linearizedBaseContracts": [
           3220
+=======
+        "id": 2988,
+        "linearizedBaseContracts": [
+          2988
+>>>>>>> bru_develop_register_page
         ],
         "name": "ProducerInterface",
         "nameLocation": "83:17:17",
@@ -71,17 +92,30 @@
         "nodes": [
           {
             "canonicalName": "ProducerInterface.Producer",
+<<<<<<< HEAD
             "id": 3189,
             "members": [
               {
                 "constant": false,
                 "id": 3165,
+=======
+            "id": 2957,
+            "members": [
+              {
+                "constant": false,
+                "id": 2933,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "id",
                 "nameLocation": "137:2:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "129:10:17",
+=======
+                "scope": 2957,
+                "src": "129:10:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -89,7 +123,11 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3164,
+=======
+                  "id": 2932,
+>>>>>>> bru_develop_register_page
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "129:7:17",
@@ -102,13 +140,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3167,
+=======
+                "id": 2935,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "producerWallet",
                 "nameLocation": "154:14:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "146:22:17",
+=======
+                "scope": 2957,
+                "src": "146:22:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -116,7 +163,11 @@
                   "typeString": "address"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3166,
+=======
+                  "id": 2934,
+>>>>>>> bru_develop_register_page
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "146:7:17",
@@ -130,11 +181,16 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3170,
+=======
+                "id": 2938,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "userType",
                 "nameLocation": "184:8:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "175:17:17",
                 "stateVariable": false,
@@ -157,6 +213,30 @@
                   "src": "175:8:17",
                   "typeDescriptions": {
                     "typeIdentifier": "t_enum$_UserType_$3197",
+=======
+                "scope": 2957,
+                "src": "175:17:15",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_enum$_UserType_$2965",
+                  "typeString": "enum ProducerInterface.UserType"
+                },
+                "typeName": {
+                  "id": 2937,
+                  "nodeType": "UserDefinedTypeName",
+                  "pathNode": {
+                    "id": 2936,
+                    "name": "UserType",
+                    "nodeType": "IdentifierPath",
+                    "referencedDeclaration": 2965,
+                    "src": "175:8:15"
+                  },
+                  "referencedDeclaration": 2965,
+                  "src": "175:8:15",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_UserType_$2965",
+>>>>>>> bru_develop_register_page
                     "typeString": "enum ProducerInterface.UserType"
                   }
                 },
@@ -164,13 +244,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3172,
+=======
+                "id": 2940,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "name",
                 "nameLocation": "206:4:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "199:11:17",
+=======
+                "scope": 2957,
+                "src": "199:11:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -178,7 +267,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3171,
+=======
+                  "id": 2939,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "199:6:17",
@@ -191,13 +284,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3174,
+=======
+                "id": 2942,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "document",
                 "nameLocation": "224:8:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "217:15:17",
+=======
+                "scope": 2957,
+                "src": "217:15:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -205,7 +307,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3173,
+=======
+                  "id": 2941,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "217:6:17",
@@ -218,13 +324,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3176,
+=======
+                "id": 2944,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "documentType",
                 "nameLocation": "246:12:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "239:19:17",
+=======
+                "scope": 2957,
+                "src": "239:19:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -232,7 +347,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3175,
+=======
+                  "id": 2943,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "239:6:17",
@@ -245,13 +364,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3178,
+=======
+                "id": 2946,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "recentInspection",
                 "nameLocation": "270:16:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "265:21:17",
+=======
+                "scope": 2957,
+                "src": "265:21:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -259,7 +387,11 @@
                   "typeString": "bool"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3177,
+=======
+                  "id": 2945,
+>>>>>>> bru_develop_register_page
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "265:4:17",
@@ -272,13 +404,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3180,
+=======
+                "id": 2948,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "totalRequests",
                 "nameLocation": "301:13:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "293:21:17",
+=======
+                "scope": 2957,
+                "src": "293:21:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -286,7 +427,11 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3179,
+=======
+                  "id": 2947,
+>>>>>>> bru_develop_register_page
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "293:7:17",
@@ -299,13 +444,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3182,
+=======
+                "id": 2950,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "isaPoints",
                 "nameLocation": "328:9:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "321:16:17",
+=======
+                "scope": 2957,
+                "src": "321:16:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -313,7 +467,11 @@
                   "typeString": "int256"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3181,
+=======
+                  "id": 2949,
+>>>>>>> bru_develop_register_page
                   "name": "int256",
                   "nodeType": "ElementaryTypeName",
                   "src": "321:6:17",
@@ -326,11 +484,16 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3185,
+=======
+                "id": 2953,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "tokenApprove",
                 "nameLocation": "357:12:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "344:25:17",
                 "stateVariable": false,
@@ -353,6 +516,30 @@
                   "src": "344:12:17",
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_TokenApprove_$3202_storage_ptr",
+=======
+                "scope": 2957,
+                "src": "344:25:15",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_TokenApprove_$2970_storage_ptr",
+                  "typeString": "struct ProducerInterface.TokenApprove"
+                },
+                "typeName": {
+                  "id": 2952,
+                  "nodeType": "UserDefinedTypeName",
+                  "pathNode": {
+                    "id": 2951,
+                    "name": "TokenApprove",
+                    "nodeType": "IdentifierPath",
+                    "referencedDeclaration": 2970,
+                    "src": "344:12:15"
+                  },
+                  "referencedDeclaration": 2970,
+                  "src": "344:12:15",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_TokenApprove_$2970_storage_ptr",
+>>>>>>> bru_develop_register_page
                     "typeString": "struct ProducerInterface.TokenApprove"
                   }
                 },
@@ -360,11 +547,16 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3188,
+=======
+                "id": 2956,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "propertyAddress",
                 "nameLocation": "392:15:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3189,
                 "src": "376:31:17",
                 "stateVariable": false,
@@ -387,6 +579,30 @@
                   "src": "376:15:17",
                   "typeDescriptions": {
                     "typeIdentifier": "t_struct$_PropertyAddress_$3211_storage_ptr",
+=======
+                "scope": 2957,
+                "src": "376:31:15",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_PropertyAddress_$2979_storage_ptr",
+                  "typeString": "struct ProducerInterface.PropertyAddress"
+                },
+                "typeName": {
+                  "id": 2955,
+                  "nodeType": "UserDefinedTypeName",
+                  "pathNode": {
+                    "id": 2954,
+                    "name": "PropertyAddress",
+                    "nodeType": "IdentifierPath",
+                    "referencedDeclaration": 2979,
+                    "src": "376:15:15"
+                  },
+                  "referencedDeclaration": 2979,
+                  "src": "376:15:15",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_PropertyAddress_$2979_storage_ptr",
+>>>>>>> bru_develop_register_page
                     "typeString": "struct ProducerInterface.PropertyAddress"
                   }
                 },
@@ -396,58 +612,94 @@
             "name": "Producer",
             "nameLocation": "113:8:17",
             "nodeType": "StructDefinition",
+<<<<<<< HEAD
             "scope": 3220,
             "src": "106:307:17",
+=======
+            "scope": 2988,
+            "src": "106:307:15",
+>>>>>>> bru_develop_register_page
             "visibility": "public"
           },
           {
             "canonicalName": "ProducerInterface.UserType",
+<<<<<<< HEAD
             "id": 3197,
             "members": [
               {
                 "id": 3190,
+=======
+            "id": 2965,
+            "members": [
+              {
+                "id": 2958,
+>>>>>>> bru_develop_register_page
                 "name": "PRODUCER",
                 "nameLocation": "440:8:17",
                 "nodeType": "EnumValue",
                 "src": "440:8:17"
               },
               {
+<<<<<<< HEAD
                 "id": 3191,
+=======
+                "id": 2959,
+>>>>>>> bru_develop_register_page
                 "name": "ACTIVIST",
                 "nameLocation": "455:8:17",
                 "nodeType": "EnumValue",
                 "src": "455:8:17"
               },
               {
+<<<<<<< HEAD
                 "id": 3192,
+=======
+                "id": 2960,
+>>>>>>> bru_develop_register_page
                 "name": "RESEARCHER",
                 "nameLocation": "470:10:17",
                 "nodeType": "EnumValue",
                 "src": "470:10:17"
               },
               {
+<<<<<<< HEAD
                 "id": 3193,
+=======
+                "id": 2961,
+>>>>>>> bru_develop_register_page
                 "name": "DEVELOPER",
                 "nameLocation": "487:9:17",
                 "nodeType": "EnumValue",
                 "src": "487:9:17"
               },
               {
+<<<<<<< HEAD
                 "id": 3194,
+=======
+                "id": 2962,
+>>>>>>> bru_develop_register_page
                 "name": "ADVISER",
                 "nameLocation": "503:7:17",
                 "nodeType": "EnumValue",
                 "src": "503:7:17"
               },
               {
+<<<<<<< HEAD
                 "id": 3195,
+=======
+                "id": 2963,
+>>>>>>> bru_develop_register_page
                 "name": "CONTRIBUTOR",
                 "nameLocation": "517:11:17",
                 "nodeType": "EnumValue",
                 "src": "517:11:17"
               },
               {
+<<<<<<< HEAD
                 "id": 3196,
+=======
+                "id": 2964,
+>>>>>>> bru_develop_register_page
                 "name": "INVESTOR",
                 "nameLocation": "535:8:17",
                 "nodeType": "EnumValue",
@@ -461,17 +713,30 @@
           },
           {
             "canonicalName": "ProducerInterface.TokenApprove",
+<<<<<<< HEAD
             "id": 3202,
             "members": [
               {
                 "constant": false,
                 "id": 3199,
+=======
+            "id": 2970,
+            "members": [
+              {
+                "constant": false,
+                "id": 2967,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "allowed",
                 "nameLocation": "589:7:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3202,
                 "src": "581:15:17",
+=======
+                "scope": 2970,
+                "src": "581:15:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -479,7 +744,11 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3198,
+=======
+                  "id": 2966,
+>>>>>>> bru_develop_register_page
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "581:7:17",
@@ -492,13 +761,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3201,
+=======
+                "id": 2969,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "withdrewToken",
                 "nameLocation": "608:13:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3202,
                 "src": "603:18:17",
+=======
+                "scope": 2970,
+                "src": "603:18:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -506,7 +784,11 @@
                   "typeString": "bool"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3200,
+=======
+                  "id": 2968,
+>>>>>>> bru_develop_register_page
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
                   "src": "603:4:17",
@@ -521,23 +803,41 @@
             "name": "TokenApprove",
             "nameLocation": "561:12:17",
             "nodeType": "StructDefinition",
+<<<<<<< HEAD
             "scope": 3220,
             "src": "554:73:17",
+=======
+            "scope": 2988,
+            "src": "554:73:15",
+>>>>>>> bru_develop_register_page
             "visibility": "public"
           },
           {
             "canonicalName": "ProducerInterface.PropertyAddress",
+<<<<<<< HEAD
             "id": 3211,
             "members": [
               {
                 "constant": false,
                 "id": 3204,
+=======
+            "id": 2979,
+            "members": [
+              {
+                "constant": false,
+                "id": 2972,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "country",
                 "nameLocation": "670:7:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3211,
                 "src": "663:14:17",
+=======
+                "scope": 2979,
+                "src": "663:14:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -545,7 +845,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3203,
+=======
+                  "id": 2971,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "663:6:17",
@@ -558,13 +862,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3206,
+=======
+                "id": 2974,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "state",
                 "nameLocation": "691:5:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3211,
                 "src": "684:12:17",
+=======
+                "scope": 2979,
+                "src": "684:12:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -572,7 +885,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3205,
+=======
+                  "id": 2973,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "684:6:17",
@@ -585,13 +902,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3208,
+=======
+                "id": 2976,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "city",
                 "nameLocation": "710:4:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3211,
                 "src": "703:11:17",
+=======
+                "scope": 2979,
+                "src": "703:11:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -599,7 +925,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3207,
+=======
+                  "id": 2975,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "703:6:17",
@@ -612,13 +942,22 @@
               },
               {
                 "constant": false,
+<<<<<<< HEAD
                 "id": 3210,
+=======
+                "id": 2978,
+>>>>>>> bru_develop_register_page
                 "mutability": "mutable",
                 "name": "cep",
                 "nameLocation": "728:3:17",
                 "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                 "scope": 3211,
                 "src": "721:10:17",
+=======
+                "scope": 2979,
+                "src": "721:10:15",
+>>>>>>> bru_develop_register_page
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -626,7 +965,11 @@
                   "typeString": "string"
                 },
                 "typeName": {
+<<<<<<< HEAD
                   "id": 3209,
+=======
+                  "id": 2977,
+>>>>>>> bru_develop_register_page
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "721:6:17",
@@ -641,13 +984,22 @@
             "name": "PropertyAddress",
             "nameLocation": "640:15:17",
             "nodeType": "StructDefinition",
+<<<<<<< HEAD
             "scope": 3220,
             "src": "633:104:17",
+=======
+            "scope": 2988,
+            "src": "633:104:15",
+>>>>>>> bru_develop_register_page
             "visibility": "public"
           },
           {
             "functionSelector": "9c3eead9",
+<<<<<<< HEAD
             "id": 3219,
+=======
+            "id": 2987,
+>>>>>>> bru_develop_register_page
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -655,18 +1007,31 @@
             "nameLocation": "752:7:17",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 3217,
+=======
+              "id": 2985,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3213,
+=======
+                  "id": 2981,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "addr",
                   "nameLocation": "768:4:17",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3219,
                   "src": "760:12:17",
+=======
+                  "scope": 2987,
+                  "src": "760:12:15",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -674,7 +1039,11 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 3212,
+=======
+                    "id": 2980,
+>>>>>>> bru_develop_register_page
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "760:7:17",
@@ -688,11 +1057,16 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3216,
+=======
+                  "id": 2984,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "userType",
                   "nameLocation": "783:8:17",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3219,
                   "src": "774:17:17",
                   "stateVariable": false,
@@ -715,6 +1089,30 @@
                     "src": "774:8:17",
                     "typeDescriptions": {
                       "typeIdentifier": "t_enum$_UserType_$3197",
+=======
+                  "scope": 2987,
+                  "src": "774:17:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_UserType_$2965",
+                    "typeString": "enum ProducerInterface.UserType"
+                  },
+                  "typeName": {
+                    "id": 2983,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 2982,
+                      "name": "UserType",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 2965,
+                      "src": "774:8:15"
+                    },
+                    "referencedDeclaration": 2965,
+                    "src": "774:8:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_UserType_$2965",
+>>>>>>> bru_develop_register_page
                       "typeString": "enum ProducerInterface.UserType"
                     }
                   },
@@ -724,20 +1122,34 @@
               "src": "759:33:17"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 3218,
+=======
+              "id": 2986,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "801:0:17"
             },
+<<<<<<< HEAD
             "scope": 3220,
             "src": "743:59:17",
+=======
+            "scope": 2988,
+            "src": "743:59:15",
+>>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
+<<<<<<< HEAD
         "scope": 3221,
         "src": "73:732:17"
+=======
+        "scope": 2989,
+        "src": "73:732:15"
+>>>>>>> bru_develop_register_page
       }
     ],
     "src": "37:770:17"
@@ -748,7 +1160,11 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
+<<<<<<< HEAD
   "updatedAt": "2022-06-29T23:40:03.411Z",
+=======
+  "updatedAt": "2022-06-04T03:08:49.709Z",
+>>>>>>> bru_develop_register_page
   "devdoc": {
     "kind": "dev",
     "methods": {},

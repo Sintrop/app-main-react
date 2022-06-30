@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Menu from "../../components/Menu";
 import { addProducer, addActivist,loadActivist } from "../../services/web3Service";
 import "./register.css";
 function Register() {
@@ -51,7 +50,6 @@ function Register() {
 
   return (
     <div className="container">
-      <Menu />
       <form>
         <label>Select the type of user you want to registe.</label>
         <select defaultValue={type} onChange={(e) => setType(e.target.value)}>

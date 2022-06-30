@@ -2643,11 +2643,16 @@
   "sourceMap": "175:754:18:-:0;;;281:168;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;378:15;349:8;;:45;;;;;;;;;;;;;;;;;;428:14;401:7;;:42;;;;;;;;;;;;;;;;;;281:168;;175:754;;7:143:31;;95:6;89:13;80:22;;111:33;138:5;111:33;:::i;:::-;70:80;;;;:::o;156:440::-;;;292:2;280:9;271:7;267:23;263:32;260:2;;;308:1;305;298:12;260:2;351:1;376:64;432:7;423:6;412:9;408:22;376:64;:::i;:::-;366:74;;322:128;489:2;515:64;571:7;562:6;551:9;547:22;515:64;:::i;:::-;505:74;;460:129;250:346;;;;;:::o;602:96::-;;668:24;686:5;668:24;:::i;:::-;657:35;;647:51;;;:::o;704:126::-;;781:42;774:5;770:54;759:65;;749:81;;;:::o;836:122::-;909:24;927:5;909:24;:::i;:::-;902:5;899:35;889:2;;948:1;945;938:12;889:2;879:79;:::o;175:754:18:-;;;;;;;",
   "deployedSourceMap": "175:754:18:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;652:143;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;455:191;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;801:125;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;652:143;697:4;710:8;;;;;;;;;;;:21;;;740:4;747:10;759:11;:9;:11::i;:::-;710:61;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;785:4;778:11;;652:143;:::o;455:191::-;499:4;512:17;532:7;;;;;;;;;;;:26;;;559:10;532:38;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;512:58;;579:8;;;;;;;;;;:20;;;600:10;612:9;579:43;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;636:4;629:11;;;455:191;:::o;801:125::-;852:7;875:8;;;;;;;;;;;:18;;;902:4;909:10;875:45;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;868:52;;801:125;:::o;7:137:31:-;;92:6;86:13;77:22;;108:30;132:5;108:30;:::i;:::-;67:77;;;;:::o;150:143::-;;238:6;232:13;223:22;;254:33;281:5;254:33;:::i;:::-;213:80;;;;:::o;299:278::-;;415:2;403:9;394:7;390:23;386:32;383:2;;;431:1;428;421:12;383:2;474:1;499:61;552:7;543:6;532:9;528:22;499:61;:::i;:::-;489:71;;445:125;373:204;;;;:::o;583:284::-;;702:2;690:9;681:7;677:23;673:32;670:2;;;718:1;715;708:12;670:2;761:1;786:64;842:7;833:6;822:9;818:22;786:64;:::i;:::-;776:74;;732:128;660:207;;;;:::o;873:118::-;960:24;978:5;960:24;:::i;:::-;955:3;948:37;938:53;;:::o;997:109::-;1078:21;1093:5;1078:21;:::i;:::-;1073:3;1066:34;1056:50;;:::o;1112:118::-;1199:24;1217:5;1199:24;:::i;:::-;1194:3;1187:37;1177:53;;:::o;1236:222::-;;1367:2;1356:9;1352:18;1344:26;;1380:71;1448:1;1437:9;1433:17;1424:6;1380:71;:::i;:::-;1334:124;;;;:::o;1464:332::-;;1623:2;1612:9;1608:18;1600:26;;1636:71;1704:1;1693:9;1689:17;1680:6;1636:71;:::i;:::-;1717:72;1785:2;1774:9;1770:18;1761:6;1717:72;:::i;:::-;1590:206;;;;;:::o;1802:442::-;;1989:2;1978:9;1974:18;1966:26;;2002:71;2070:1;2059:9;2055:17;2046:6;2002:71;:::i;:::-;2083:72;2151:2;2140:9;2136:18;2127:6;2083:72;:::i;:::-;2165;2233:2;2222:9;2218:18;2209:6;2165:72;:::i;:::-;1956:288;;;;;;:::o;2250:332::-;;2409:2;2398:9;2394:18;2386:26;;2422:71;2490:1;2479:9;2475:17;2466:6;2422:71;:::i;:::-;2503:72;2571:2;2560:9;2556:18;2547:6;2503:72;:::i;:::-;2376:206;;;;;:::o;2588:210::-;;2713:2;2702:9;2698:18;2690:26;;2726:65;2788:1;2777:9;2773:17;2764:6;2726:65;:::i;:::-;2680:118;;;;:::o;2804:222::-;;2935:2;2924:9;2920:18;2912:26;;2948:71;3016:1;3005:9;3001:17;2992:6;2948:71;:::i;:::-;2902:124;;;;:::o;3032:96::-;;3098:24;3116:5;3098:24;:::i;:::-;3087:35;;3077:51;;;:::o;3134:90::-;;3211:5;3204:13;3197:21;3186:32;;3176:48;;;:::o;3230:126::-;;3307:42;3300:5;3296:54;3285:65;;3275:81;;;:::o;3362:77::-;;3428:5;3417:16;;3407:32;;;:::o;3445:116::-;3515:21;3530:5;3515:21;:::i;:::-;3508:5;3505:32;3495:2;;3551:1;3548;3541:12;3495:2;3485:76;:::o;3567:122::-;3640:24;3658:5;3640:24;:::i;:::-;3633:5;3630:35;3620:2;;3679:1;3676;3669:12;3620:2;3610:79;:::o",
   "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\nimport \"./PoolInterface.sol\";\r\nimport \"./SintropInterface.sol\";\r\nimport \"./SacTokenInterface.sol\";\r\n\r\ncontract ProducerPool is PoolInterface {\r\n  SacTokenInterface sacToken;\r\n  SintropInterface sintrop;\r\n\r\n  constructor(address sacTokenAddress, address sintropAddress) {\r\n    sacToken = SacTokenInterface(sacTokenAddress);\r\n    sintrop = SintropInterface(sintropAddress);\r\n  }\r\n\r\n  function approve() public override returns (bool) {\r\n    uint256 numTokens = sintrop.getProducerApprove(msg.sender);\r\n\r\n    sacToken.approveWith(msg.sender, numTokens);\r\n    return true;\r\n  }\r\n\r\n  function withDraw() public override returns (bool) {\r\n    sacToken.transferFrom(address(this), msg.sender, allowance());\r\n    return true;\r\n  }\r\n\r\n  function allowance() public view override returns (uint256) {\r\n    return sacToken.allowance(address(this), msg.sender);\r\n  }\r\n}\r\n",
+<<<<<<< HEAD
   "sourcePath": "C:\\Users\\emano\\Documents\\Sintrop\\core-contracts\\contracts\\ProducerPool.sol",
+=======
+  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts\\contracts\\ProducerPool.sol",
+>>>>>>> bru_develop_register_page
   "ast": {
     "absolutePath": "project:/contracts/ProducerPool.sol",
     "exportedSymbols": {
       "PoolInterface": [
+<<<<<<< HEAD
         2779
       ],
       "ProducerPool": [
@@ -2661,11 +2666,30 @@
       ]
     },
     "id": 3319,
+=======
+        2565
+      ],
+      "ProducerPool": [
+        3086
+      ],
+      "SacTokenInterface": [
+        3571
+      ],
+      "SintropInterface": [
+        4266
+      ]
+    },
+    "id": 3087,
+>>>>>>> bru_develop_register_page
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
+<<<<<<< HEAD
         "id": 3222,
+=======
+        "id": 2990,
+>>>>>>> bru_develop_register_page
         "literals": [
           "solidity",
           ">=",
@@ -2681,36 +2705,63 @@
       {
         "absolutePath": "project:/contracts/PoolInterface.sol",
         "file": "./PoolInterface.sol",
+<<<<<<< HEAD
         "id": 3223,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 3319,
         "sourceUnit": 2780,
         "src": "73:29:18",
+=======
+        "id": 2991,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 3087,
+        "sourceUnit": 2566,
+        "src": "73:29:16",
+>>>>>>> bru_develop_register_page
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "project:/contracts/SintropInterface.sol",
         "file": "./SintropInterface.sol",
+<<<<<<< HEAD
         "id": 3224,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 3319,
         "sourceUnit": 4548,
         "src": "104:32:18",
+=======
+        "id": 2992,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 3087,
+        "sourceUnit": 4267,
+        "src": "104:32:16",
+>>>>>>> bru_develop_register_page
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "project:/contracts/SacTokenInterface.sol",
         "file": "./SacTokenInterface.sol",
+<<<<<<< HEAD
         "id": 3225,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 3319,
         "sourceUnit": 3804,
         "src": "138:33:18",
+=======
+        "id": 2993,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 3087,
+        "sourceUnit": 3572,
+        "src": "138:33:16",
+>>>>>>> bru_develop_register_page
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -2719,6 +2770,7 @@
         "baseContracts": [
           {
             "baseName": {
+<<<<<<< HEAD
               "id": 3226,
               "name": "PoolInterface",
               "nodeType": "IdentifierPath",
@@ -2726,11 +2778,21 @@
               "src": "200:13:18"
             },
             "id": 3227,
+=======
+              "id": 2994,
+              "name": "PoolInterface",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 2565,
+              "src": "200:13:16"
+            },
+            "id": 2995,
+>>>>>>> bru_develop_register_page
             "nodeType": "InheritanceSpecifier",
             "src": "200:13:18"
           }
         ],
         "contractDependencies": [
+<<<<<<< HEAD
           2779
         ],
         "contractKind": "contract",
@@ -2739,6 +2801,16 @@
         "linearizedBaseContracts": [
           3318,
           2779
+=======
+          2565
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 3086,
+        "linearizedBaseContracts": [
+          3086,
+          2565
+>>>>>>> bru_develop_register_page
         ],
         "name": "ProducerPool",
         "nameLocation": "184:12:18",
@@ -2746,11 +2818,16 @@
         "nodes": [
           {
             "constant": false,
+<<<<<<< HEAD
             "id": 3230,
+=======
+            "id": 2998,
+>>>>>>> bru_develop_register_page
             "mutability": "mutable",
             "name": "sacToken",
             "nameLocation": "237:8:18",
             "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
             "scope": 3318,
             "src": "219:26:18",
             "stateVariable": true,
@@ -2773,6 +2850,30 @@
               "src": "219:17:18",
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_SacTokenInterface_$3803",
+=======
+            "scope": 3086,
+            "src": "219:26:16",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+              "typeString": "contract SacTokenInterface"
+            },
+            "typeName": {
+              "id": 2997,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 2996,
+                "name": "SacTokenInterface",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 3571,
+                "src": "219:17:16"
+              },
+              "referencedDeclaration": 3571,
+              "src": "219:17:16",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+>>>>>>> bru_develop_register_page
                 "typeString": "contract SacTokenInterface"
               }
             },
@@ -2780,11 +2881,16 @@
           },
           {
             "constant": false,
+<<<<<<< HEAD
             "id": 3233,
+=======
+            "id": 3001,
+>>>>>>> bru_develop_register_page
             "mutability": "mutable",
             "name": "sintrop",
             "nameLocation": "267:7:18",
             "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
             "scope": 3318,
             "src": "250:24:18",
             "stateVariable": true,
@@ -2807,6 +2913,30 @@
               "src": "250:16:18",
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_SintropInterface_$4547",
+=======
+            "scope": 3086,
+            "src": "250:24:16",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_SintropInterface_$4266",
+              "typeString": "contract SintropInterface"
+            },
+            "typeName": {
+              "id": 3000,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 2999,
+                "name": "SintropInterface",
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 4266,
+                "src": "250:16:16"
+              },
+              "referencedDeclaration": 4266,
+              "src": "250:16:16",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_SintropInterface_$4266",
+>>>>>>> bru_develop_register_page
                 "typeString": "contract SintropInterface"
               }
             },
@@ -2814,18 +2944,27 @@
           },
           {
             "body": {
+<<<<<<< HEAD
               "id": 3252,
+=======
+              "id": 3020,
+>>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "342:107:18",
               "statements": [
                 {
                   "expression": {
+<<<<<<< HEAD
                     "id": 3244,
+=======
+                    "id": 3012,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
+<<<<<<< HEAD
                       "id": 3240,
                       "name": "sacToken",
                       "nodeType": "Identifier",
@@ -2834,6 +2973,16 @@
                       "src": "349:8:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_SacTokenInterface_$3803",
+=======
+                      "id": 3008,
+                      "name": "sacToken",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2998,
+                      "src": "349:8:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+>>>>>>> bru_develop_register_page
                         "typeString": "contract SacTokenInterface"
                       }
                     },
@@ -2842,12 +2991,21 @@
                     "rightHandSide": {
                       "arguments": [
                         {
+<<<<<<< HEAD
                           "id": 3242,
                           "name": "sacTokenAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 3235,
                           "src": "378:15:18",
+=======
+                          "id": 3010,
+                          "name": "sacTokenAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 3003,
+                          "src": "378:15:16",
+>>>>>>> bru_develop_register_page
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2861,6 +3019,7 @@
                             "typeString": "address"
                           }
                         ],
+<<<<<<< HEAD
                         "id": 3241,
                         "name": "SacTokenInterface",
                         "nodeType": "Identifier",
@@ -2873,6 +3032,20 @@
                         }
                       },
                       "id": 3243,
+=======
+                        "id": 3009,
+                        "name": "SacTokenInterface",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3571,
+                        "src": "360:17:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SacTokenInterface_$3571_$",
+                          "typeString": "type(contract SacTokenInterface)"
+                        }
+                      },
+                      "id": 3011,
+>>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2883,28 +3056,45 @@
                       "src": "360:34:18",
                       "tryCall": false,
                       "typeDescriptions": {
+<<<<<<< HEAD
                         "typeIdentifier": "t_contract$_SacTokenInterface_$3803",
+=======
+                        "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+>>>>>>> bru_develop_register_page
                         "typeString": "contract SacTokenInterface"
                       }
                     },
                     "src": "349:45:18",
                     "typeDescriptions": {
+<<<<<<< HEAD
                       "typeIdentifier": "t_contract$_SacTokenInterface_$3803",
                       "typeString": "contract SacTokenInterface"
                     }
                   },
                   "id": 3245,
+=======
+                      "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+                      "typeString": "contract SacTokenInterface"
+                    }
+                  },
+                  "id": 3013,
+>>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "349:45:18"
                 },
                 {
                   "expression": {
+<<<<<<< HEAD
                     "id": 3250,
+=======
+                    "id": 3018,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
+<<<<<<< HEAD
                       "id": 3246,
                       "name": "sintrop",
                       "nodeType": "Identifier",
@@ -2913,6 +3103,16 @@
                       "src": "401:7:18",
                       "typeDescriptions": {
                         "typeIdentifier": "t_contract$_SintropInterface_$4547",
+=======
+                      "id": 3014,
+                      "name": "sintrop",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3001,
+                      "src": "401:7:16",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_SintropInterface_$4266",
+>>>>>>> bru_develop_register_page
                         "typeString": "contract SintropInterface"
                       }
                     },
@@ -2921,12 +3121,21 @@
                     "rightHandSide": {
                       "arguments": [
                         {
+<<<<<<< HEAD
                           "id": 3248,
                           "name": "sintropAddress",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 3237,
                           "src": "428:14:18",
+=======
+                          "id": 3016,
+                          "name": "sintropAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 3005,
+                          "src": "428:14:16",
+>>>>>>> bru_develop_register_page
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -2940,6 +3149,7 @@
                             "typeString": "address"
                           }
                         ],
+<<<<<<< HEAD
                         "id": 3247,
                         "name": "SintropInterface",
                         "nodeType": "Identifier",
@@ -2952,6 +3162,20 @@
                         }
                       },
                       "id": 3249,
+=======
+                        "id": 3015,
+                        "name": "SintropInterface",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 4266,
+                        "src": "411:16:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_SintropInterface_$4266_$",
+                          "typeString": "type(contract SintropInterface)"
+                        }
+                      },
+                      "id": 3017,
+>>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2962,23 +3186,39 @@
                       "src": "411:32:18",
                       "tryCall": false,
                       "typeDescriptions": {
+<<<<<<< HEAD
                         "typeIdentifier": "t_contract$_SintropInterface_$4547",
+=======
+                        "typeIdentifier": "t_contract$_SintropInterface_$4266",
+>>>>>>> bru_develop_register_page
                         "typeString": "contract SintropInterface"
                       }
                     },
                     "src": "401:42:18",
                     "typeDescriptions": {
+<<<<<<< HEAD
                       "typeIdentifier": "t_contract$_SintropInterface_$4547",
                       "typeString": "contract SintropInterface"
                     }
                   },
                   "id": 3251,
+=======
+                      "typeIdentifier": "t_contract$_SintropInterface_$4266",
+                      "typeString": "contract SintropInterface"
+                    }
+                  },
+                  "id": 3019,
+>>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "401:42:18"
                 }
               ]
             },
+<<<<<<< HEAD
             "id": 3253,
+=======
+            "id": 3021,
+>>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -2986,18 +3226,31 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
+<<<<<<< HEAD
               "id": 3238,
+=======
+              "id": 3006,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3235,
+=======
+                  "id": 3003,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "sacTokenAddress",
                   "nameLocation": "301:15:18",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3253,
                   "src": "293:23:18",
+=======
+                  "scope": 3021,
+                  "src": "293:23:16",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3005,7 +3258,11 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 3234,
+=======
+                    "id": 3002,
+>>>>>>> bru_develop_register_page
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "293:7:18",
@@ -3019,13 +3276,22 @@
                 },
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3237,
+=======
+                  "id": 3005,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "sintropAddress",
                   "nameLocation": "326:14:18",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3253,
                   "src": "318:22:18",
+=======
+                  "scope": 3021,
+                  "src": "318:22:16",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3033,7 +3299,11 @@
                     "typeString": "address"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 3236,
+=======
+                    "id": 3004,
+>>>>>>> bru_develop_register_page
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "318:7:18",
@@ -3049,40 +3319,69 @@
               "src": "292:49:18"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 3239,
+=======
+              "id": 3007,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "342:0:18"
             },
+<<<<<<< HEAD
             "scope": 3318,
             "src": "281:168:18",
+=======
+            "scope": 3086,
+            "src": "281:168:16",
+>>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "baseFunctions": [
+<<<<<<< HEAD
               2768
             ],
             "body": {
               "id": 3277,
+=======
+              2554
+            ],
+            "body": {
+              "id": 3045,
+>>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "505:141:18",
               "statements": [
                 {
                   "assignments": [
+<<<<<<< HEAD
                     3260
+=======
+                    3028
+>>>>>>> bru_develop_register_page
                   ],
                   "declarations": [
                     {
                       "constant": false,
+<<<<<<< HEAD
                       "id": 3260,
+=======
+                      "id": 3028,
+>>>>>>> bru_develop_register_page
                       "mutability": "mutable",
                       "name": "numTokens",
                       "nameLocation": "520:9:18",
                       "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                       "scope": 3277,
                       "src": "512:17:18",
+=======
+                      "scope": 3045,
+                      "src": "512:17:16",
+>>>>>>> bru_develop_register_page
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3090,7 +3389,11 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
+<<<<<<< HEAD
                         "id": 3259,
+=======
+                        "id": 3027,
+>>>>>>> bru_develop_register_page
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "512:7:18",
@@ -3102,12 +3405,20 @@
                       "visibility": "internal"
                     }
                   ],
+<<<<<<< HEAD
                   "id": 3266,
+=======
+                  "id": 3034,
+>>>>>>> bru_develop_register_page
                   "initialValue": {
                     "arguments": [
                       {
                         "expression": {
+<<<<<<< HEAD
                           "id": 3263,
+=======
+                          "id": 3031,
+>>>>>>> bru_develop_register_page
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -3118,7 +3429,11 @@
                             "typeString": "msg"
                           }
                         },
+<<<<<<< HEAD
                         "id": 3264,
+=======
+                        "id": 3032,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3140,6 +3455,7 @@
                         }
                       ],
                       "expression": {
+<<<<<<< HEAD
                         "id": 3261,
                         "name": "sintrop",
                         "nodeType": "Identifier",
@@ -3152,20 +3468,43 @@
                         }
                       },
                       "id": 3262,
+=======
+                        "id": 3029,
+                        "name": "sintrop",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3001,
+                        "src": "532:7:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_SintropInterface_$4266",
+                          "typeString": "contract SintropInterface"
+                        }
+                      },
+                      "id": 3030,
+>>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "getProducerApprove",
                       "nodeType": "MemberAccess",
+<<<<<<< HEAD
                       "referencedDeclaration": 4546,
                       "src": "532:26:18",
+=======
+                      "referencedDeclaration": 4265,
+                      "src": "532:26:16",
+>>>>>>> bru_develop_register_page
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                         "typeString": "function (address) view external returns (uint256)"
                       }
                     },
+<<<<<<< HEAD
                     "id": 3265,
+=======
+                    "id": 3033,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3188,7 +3527,11 @@
                     "arguments": [
                       {
                         "expression": {
+<<<<<<< HEAD
                           "id": 3270,
+=======
+                          "id": 3038,
+>>>>>>> bru_develop_register_page
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -3199,7 +3542,11 @@
                             "typeString": "msg"
                           }
                         },
+<<<<<<< HEAD
                         "id": 3271,
+=======
+                        "id": 3039,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3213,12 +3560,21 @@
                         }
                       },
                       {
+<<<<<<< HEAD
                         "id": 3272,
                         "name": "numTokens",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 3260,
                         "src": "612:9:18",
+=======
+                        "id": 3040,
+                        "name": "numTokens",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3028,
+                        "src": "612:9:16",
+>>>>>>> bru_develop_register_page
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3237,6 +3593,7 @@
                         }
                       ],
                       "expression": {
+<<<<<<< HEAD
                         "id": 3267,
                         "name": "sacToken",
                         "nodeType": "Identifier",
@@ -3249,20 +3606,43 @@
                         }
                       },
                       "id": 3269,
+=======
+                        "id": 3035,
+                        "name": "sacToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2998,
+                        "src": "579:8:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+                          "typeString": "contract SacTokenInterface"
+                        }
+                      },
+                      "id": 3037,
+>>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "approveWith",
                       "nodeType": "MemberAccess",
+<<<<<<< HEAD
                       "referencedDeclaration": 3782,
                       "src": "579:20:18",
+=======
+                      "referencedDeclaration": 3550,
+                      "src": "579:20:16",
+>>>>>>> bru_develop_register_page
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_uint256_$",
                         "typeString": "function (address,uint256) external returns (uint256)"
                       }
                     },
+<<<<<<< HEAD
                     "id": 3273,
+=======
+                    "id": 3041,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3277,14 +3657,22 @@
                       "typeString": "uint256"
                     }
                   },
+<<<<<<< HEAD
                   "id": 3274,
+=======
+                  "id": 3042,
+>>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "579:43:18"
                 },
                 {
                   "expression": {
                     "hexValue": "74727565",
+<<<<<<< HEAD
                     "id": 3275,
+=======
+                    "id": 3043,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -3298,15 +3686,24 @@
                     },
                     "value": "true"
                   },
+<<<<<<< HEAD
                   "functionReturnParameters": 3258,
                   "id": 3276,
+=======
+                  "functionReturnParameters": 3026,
+                  "id": 3044,
+>>>>>>> bru_develop_register_page
                   "nodeType": "Return",
                   "src": "629:11:18"
                 }
               ]
             },
             "functionSelector": "12424e3f",
+<<<<<<< HEAD
             "id": 3278,
+=======
+            "id": 3046,
+>>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3314,30 +3711,51 @@
             "nameLocation": "464:7:18",
             "nodeType": "FunctionDefinition",
             "overrides": {
+<<<<<<< HEAD
               "id": 3255,
+=======
+              "id": 3023,
+>>>>>>> bru_develop_register_page
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "481:8:18"
             },
             "parameters": {
+<<<<<<< HEAD
               "id": 3254,
+=======
+              "id": 3022,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "471:2:18"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 3258,
+=======
+              "id": 3026,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3257,
+=======
+                  "id": 3025,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3278,
                   "src": "499:4:18",
+=======
+                  "scope": 3046,
+                  "src": "499:4:16",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3345,7 +3763,11 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 3256,
+=======
+                    "id": 3024,
+>>>>>>> bru_develop_register_page
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "499:4:18",
@@ -3359,18 +3781,30 @@
               ],
               "src": "498:6:18"
             },
+<<<<<<< HEAD
             "scope": 3318,
             "src": "455:191:18",
+=======
+            "scope": 3086,
+            "src": "455:191:16",
+>>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "baseFunctions": [
+<<<<<<< HEAD
               2773
             ],
             "body": {
               "id": 3299,
+=======
+              2559
+            ],
+            "body": {
+              "id": 3067,
+>>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "703:92:18",
               "statements": [
@@ -3380,14 +3814,22 @@
                       {
                         "arguments": [
                           {
+<<<<<<< HEAD
                             "id": 3289,
+=======
+                            "id": 3057,
+>>>>>>> bru_develop_register_page
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967268,
                             "src": "740:4:18",
                             "typeDescriptions": {
+<<<<<<< HEAD
                               "typeIdentifier": "t_contract$_ProducerPool_$3318",
+=======
+                              "typeIdentifier": "t_contract$_ProducerPool_$3086",
+>>>>>>> bru_develop_register_page
                               "typeString": "contract ProducerPool"
                             }
                           }
@@ -3395,11 +3837,19 @@
                         "expression": {
                           "argumentTypes": [
                             {
+<<<<<<< HEAD
                               "typeIdentifier": "t_contract$_ProducerPool_$3318",
                               "typeString": "contract ProducerPool"
                             }
                           ],
                           "id": 3288,
+=======
+                              "typeIdentifier": "t_contract$_ProducerPool_$3086",
+                              "typeString": "contract ProducerPool"
+                            }
+                          ],
+                          "id": 3056,
+>>>>>>> bru_develop_register_page
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3411,14 +3861,22 @@
                             "typeString": "type(address)"
                           },
                           "typeName": {
+<<<<<<< HEAD
                             "id": 3287,
+=======
+                            "id": 3055,
+>>>>>>> bru_develop_register_page
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "732:7:18",
                             "typeDescriptions": {}
                           }
                         },
+<<<<<<< HEAD
                         "id": 3290,
+=======
+                        "id": 3058,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3435,7 +3893,11 @@
                       },
                       {
                         "expression": {
+<<<<<<< HEAD
                           "id": 3291,
+=======
+                          "id": 3059,
+>>>>>>> bru_develop_register_page
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -3446,7 +3908,11 @@
                             "typeString": "msg"
                           }
                         },
+<<<<<<< HEAD
                         "id": 3292,
+=======
+                        "id": 3060,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3463,18 +3929,31 @@
                         "arguments": [],
                         "expression": {
                           "argumentTypes": [],
+<<<<<<< HEAD
                           "id": 3293,
                           "name": "allowance",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 3317,
                           "src": "759:9:18",
+=======
+                          "id": 3061,
+                          "name": "allowance",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 3085,
+                          "src": "759:9:16",
+>>>>>>> bru_develop_register_page
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                             "typeString": "function () view returns (uint256)"
                           }
                         },
+<<<<<<< HEAD
                         "id": 3294,
+=======
+                        "id": 3062,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3506,6 +3985,7 @@
                         }
                       ],
                       "expression": {
+<<<<<<< HEAD
                         "id": 3284,
                         "name": "sacToken",
                         "nodeType": "Identifier",
@@ -3518,20 +3998,43 @@
                         }
                       },
                       "id": 3286,
+=======
+                        "id": 3052,
+                        "name": "sacToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2998,
+                        "src": "710:8:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+                          "typeString": "contract SacTokenInterface"
+                        }
+                      },
+                      "id": 3054,
+>>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
+<<<<<<< HEAD
                       "referencedDeclaration": 3802,
                       "src": "710:21:18",
+=======
+                      "referencedDeclaration": 3570,
+                      "src": "710:21:16",
+>>>>>>> bru_develop_register_page
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
                         "typeString": "function (address,address,uint256) external returns (bool)"
                       }
                     },
+<<<<<<< HEAD
                     "id": 3295,
+=======
+                    "id": 3063,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3546,14 +4049,22 @@
                       "typeString": "bool"
                     }
                   },
+<<<<<<< HEAD
                   "id": 3296,
+=======
+                  "id": 3064,
+>>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "710:61:18"
                 },
                 {
                   "expression": {
                     "hexValue": "74727565",
+<<<<<<< HEAD
                     "id": 3297,
+=======
+                    "id": 3065,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -3567,15 +4078,24 @@
                     },
                     "value": "true"
                   },
+<<<<<<< HEAD
                   "functionReturnParameters": 3283,
                   "id": 3298,
+=======
+                  "functionReturnParameters": 3051,
+                  "id": 3066,
+>>>>>>> bru_develop_register_page
                   "nodeType": "Return",
                   "src": "778:11:18"
                 }
               ]
             },
             "functionSelector": "0fdb1c10",
+<<<<<<< HEAD
             "id": 3300,
+=======
+            "id": 3068,
+>>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3583,30 +4103,51 @@
             "nameLocation": "661:8:18",
             "nodeType": "FunctionDefinition",
             "overrides": {
+<<<<<<< HEAD
               "id": 3280,
+=======
+              "id": 3048,
+>>>>>>> bru_develop_register_page
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "679:8:18"
             },
             "parameters": {
+<<<<<<< HEAD
               "id": 3279,
+=======
+              "id": 3047,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "669:2:18"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 3283,
+=======
+              "id": 3051,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3282,
+=======
+                  "id": 3050,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3300,
                   "src": "697:4:18",
+=======
+                  "scope": 3068,
+                  "src": "697:4:16",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3614,7 +4155,11 @@
                     "typeString": "bool"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 3281,
+=======
+                    "id": 3049,
+>>>>>>> bru_develop_register_page
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "697:4:18",
@@ -3628,18 +4173,30 @@
               ],
               "src": "696:6:18"
             },
+<<<<<<< HEAD
             "scope": 3318,
             "src": "652:143:18",
+=======
+            "scope": 3086,
+            "src": "652:143:16",
+>>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "baseFunctions": [
+<<<<<<< HEAD
               2778
             ],
             "body": {
               "id": 3316,
+=======
+              2564
+            ],
+            "body": {
+              "id": 3084,
+>>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "861:65:18",
               "statements": [
@@ -3649,14 +4206,22 @@
                       {
                         "arguments": [
                           {
+<<<<<<< HEAD
                             "id": 3310,
+=======
+                            "id": 3078,
+>>>>>>> bru_develop_register_page
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 4294967268,
                             "src": "902:4:18",
                             "typeDescriptions": {
+<<<<<<< HEAD
                               "typeIdentifier": "t_contract$_ProducerPool_$3318",
+=======
+                              "typeIdentifier": "t_contract$_ProducerPool_$3086",
+>>>>>>> bru_develop_register_page
                               "typeString": "contract ProducerPool"
                             }
                           }
@@ -3664,11 +4229,19 @@
                         "expression": {
                           "argumentTypes": [
                             {
+<<<<<<< HEAD
                               "typeIdentifier": "t_contract$_ProducerPool_$3318",
                               "typeString": "contract ProducerPool"
                             }
                           ],
                           "id": 3309,
+=======
+                              "typeIdentifier": "t_contract$_ProducerPool_$3086",
+                              "typeString": "contract ProducerPool"
+                            }
+                          ],
+                          "id": 3077,
+>>>>>>> bru_develop_register_page
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3680,14 +4253,22 @@
                             "typeString": "type(address)"
                           },
                           "typeName": {
+<<<<<<< HEAD
                             "id": 3308,
+=======
+                            "id": 3076,
+>>>>>>> bru_develop_register_page
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "894:7:18",
                             "typeDescriptions": {}
                           }
                         },
+<<<<<<< HEAD
                         "id": 3311,
+=======
+                        "id": 3079,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3704,7 +4285,11 @@
                       },
                       {
                         "expression": {
+<<<<<<< HEAD
                           "id": 3312,
+=======
+                          "id": 3080,
+>>>>>>> bru_develop_register_page
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -3715,7 +4300,11 @@
                             "typeString": "msg"
                           }
                         },
+<<<<<<< HEAD
                         "id": 3313,
+=======
+                        "id": 3081,
+>>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3741,6 +4330,7 @@
                         }
                       ],
                       "expression": {
+<<<<<<< HEAD
                         "id": 3306,
                         "name": "sacToken",
                         "nodeType": "Identifier",
@@ -3753,20 +4343,43 @@
                         }
                       },
                       "id": 3307,
+=======
+                        "id": 3074,
+                        "name": "sacToken",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2998,
+                        "src": "875:8:16",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_SacTokenInterface_$3571",
+                          "typeString": "contract SacTokenInterface"
+                        }
+                      },
+                      "id": 3075,
+>>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "allowance",
                       "nodeType": "MemberAccess",
+<<<<<<< HEAD
                       "referencedDeclaration": 3773,
                       "src": "875:18:18",
+=======
+                      "referencedDeclaration": 3541,
+                      "src": "875:18:16",
+>>>>>>> bru_develop_register_page
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_address_$returns$_t_uint256_$",
                         "typeString": "function (address,address) view external returns (uint256)"
                       }
                     },
+<<<<<<< HEAD
                     "id": 3314,
+=======
+                    "id": 3082,
+>>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3781,15 +4394,24 @@
                       "typeString": "uint256"
                     }
                   },
+<<<<<<< HEAD
                   "functionReturnParameters": 3305,
                   "id": 3315,
+=======
+                  "functionReturnParameters": 3073,
+                  "id": 3083,
+>>>>>>> bru_develop_register_page
                   "nodeType": "Return",
                   "src": "868:52:18"
                 }
               ]
             },
             "functionSelector": "de242ff4",
+<<<<<<< HEAD
             "id": 3317,
+=======
+            "id": 3085,
+>>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3797,30 +4419,51 @@
             "nameLocation": "810:9:18",
             "nodeType": "FunctionDefinition",
             "overrides": {
+<<<<<<< HEAD
               "id": 3302,
+=======
+              "id": 3070,
+>>>>>>> bru_develop_register_page
               "nodeType": "OverrideSpecifier",
               "overrides": [],
               "src": "834:8:18"
             },
             "parameters": {
+<<<<<<< HEAD
               "id": 3301,
+=======
+              "id": 3069,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "819:2:18"
             },
             "returnParameters": {
+<<<<<<< HEAD
               "id": 3305,
+=======
+              "id": 3073,
+>>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
+<<<<<<< HEAD
                   "id": 3304,
+=======
+                  "id": 3072,
+>>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
+<<<<<<< HEAD
                   "scope": 3317,
                   "src": "852:7:18",
+=======
+                  "scope": 3085,
+                  "src": "852:7:16",
+>>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3828,7 +4471,11 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
+<<<<<<< HEAD
                     "id": 3303,
+=======
+                    "id": 3071,
+>>>>>>> bru_develop_register_page
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "852:7:18",
@@ -3842,15 +4489,25 @@
               ],
               "src": "851:9:18"
             },
+<<<<<<< HEAD
             "scope": 3318,
             "src": "801:125:18",
+=======
+            "scope": 3086,
+            "src": "801:125:16",
+>>>>>>> bru_develop_register_page
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
+<<<<<<< HEAD
         "scope": 3319,
         "src": "175:754:18"
+=======
+        "scope": 3087,
+        "src": "175:754:16"
+>>>>>>> bru_develop_register_page
       }
     ],
     "src": "37:894:18"
@@ -3861,7 +4518,11 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
+<<<<<<< HEAD
   "updatedAt": "2022-06-29T23:40:03.432Z",
+=======
+  "updatedAt": "2022-06-04T03:08:49.723Z",
+>>>>>>> bru_develop_register_page
   "devdoc": {
     "kind": "dev",
     "methods": {},
