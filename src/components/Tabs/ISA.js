@@ -69,7 +69,12 @@ export default function ISA({user, walletAddress}){
                             <tbody>
                                 {categories.map(item => {
                                     return(
-                                        <ItemsListISA data={item} key={item.id}/>
+                                        <ItemsListISA 
+                                            data={item} 
+                                            key={item.id} 
+                                            walletAddress={walletAddress}
+                                            reloadCategories={() => getCategories()}
+                                        />
                                     )
                                 })}
                             </tbody>
