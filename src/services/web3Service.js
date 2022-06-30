@@ -33,7 +33,7 @@ const loadContracts = async () => {
     const address = await window.ethereum.request({
       method: "eth_requestAccounts",
     });
-    localStorage.setItem("account" , address);
+    localStorage.setItem("account" , address[0]);
     const userDataNetwork = UserContract.networks["5777"];
     const userContractAddress = userDataNetwork.address;
     const userABI = UserContract.abi;
