@@ -8,13 +8,15 @@ import Loading from '../../Loading';
 //services
 import {Vote, GetTokensBalance} from '../../../services/voteService';
 
-export default function VoteCategory({close, walletAddress, data, reloadCategories}){
+export default function VoteCategory({close, walletAddress, data, reloadCategories, type}){
     const [tokensBalance, setTokensBalance] = useState(0);
     const [sendTokens, setSendTokens] = useState(0);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        getBalance();
+        if(type === 'vote'){
+            getBalance();
+        }
     }, [])
 
     async function getBalance(){
@@ -41,7 +43,7 @@ export default function VoteCategory({close, walletAddress, data, reloadCategori
         <div className="container-create-category">
             <div className="card-vote-category">
                 <div className="header-create-category">
-                    <p className='tit-categories-isa'>Vote of Category</p>
+                    <p className='tit-categories-isa'>{type === 'vote' ? 'Vote' : 'Unvote'} of Category</p>
                     <button
                         className="btn-close-create-category"
                         onClick={() => close()}
@@ -50,21 +52,35 @@ export default function VoteCategory({close, walletAddress, data, reloadCategori
                     </button>
                 </div>
                 <div>
-                    <p className='tit-your-balance'>Your balance: {tokensBalance} SAC Tokens</p>
-
+                    {type === 'vote' && (
+                        <p className='tit-your-balance'>Your balance: {tokensBalance} SAC Tokens</p>
+                    )}
+                    
+                    <p>Amount of tokens you want to {type}</p>
                     <input 
                         type='number' 
                         value={sendTokens}
+                        className='input-amount-tokens-vote'
                         onChange={(e) => setSendTokens(e.target.value)}
                         placeholder='Amount of tokens'
                     />
 
-                    <button
-                        className='btn-vote-of-category'
-                        onClick={() => validatesAmount()}
-                    >
-                        Vote
-                    </button>
+                    {type === 'vote' ? (
+                        <button
+                            className='btn-vote-of-category'
+                            onClick={() => validatesAmount()}
+                        >
+                            Vote
+                        </button>
+                    ) : (
+                        <button
+                            className='btn-unvote-of-category'
+                            onClick={() => {}}
+                        >
+                            Unvote
+                        </button>
+                    )}
+                    
                 </div>
             </div>
 

@@ -7,13 +7,14 @@ import VoteCategory from '../VoteCategory';
 import Loading from '../../Loading';
 
 //services
-import {IsVoted, Unvote} from '../../../services/voteService';
+import {IsVoted} from '../../../services/voteService';
 
 export default function ItemsListISA({data, walletAddress, reloadCategories}){
     const [showDetails, setShowDetails] = useState(false);
     const [showVoteCard, setShowVoteCard] = useState(false);
     const [loading, setLoading] = useState(false);
     const [categoryVoted, setCategoryVoted] = useState(false);
+    const [typeModal, setTypeModal] = useState('vote');
 
     useEffect(() => {
         checkIsVoted();
@@ -28,10 +29,6 @@ export default function ItemsListISA({data, walletAddress, reloadCategories}){
         }
     }
 
-    async function testUnvote(){
-        const response = await Unvote(data.id, walletAddress);
-        console.log(response)
-    }
 
     return(
         <tr key={data.id}>
@@ -55,14 +52,20 @@ export default function ItemsListISA({data, walletAddress, reloadCategories}){
             <td id='td-vote-table-isa'>
                 {categoryVoted && (
                     <button
-                        onClick={() => testUnvote()}
+                        onClick={() => {
+                            setTypeModal('unvote')
+                            setShowVoteCard(true)
+                        }}
                         className='btn-unvote'
                     >
                         - Unvote
                     </button>
                 )}
                 <button
-                    onClick={() => setShowVoteCard(true)}
+                    onClick={() => {
+                        setTypeModal('vote')
+                        setShowVoteCard(true)
+                    }}
                     className='btn-vote'
                 >
                     + Vote
@@ -82,6 +85,7 @@ export default function ItemsListISA({data, walletAddress, reloadCategories}){
                     walletAddress={walletAddress}
                     data={data}
                     reloadCategories={() => reloadCategories()}
+                    type={typeModal}
                 />
             )}
 
