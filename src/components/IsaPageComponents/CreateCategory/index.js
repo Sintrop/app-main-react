@@ -2,10 +2,10 @@ import React, {useState} from "react";
 import Web3 from "web3";
 import './createCategory.css';
 
-import CategoryContract from '../../data/contracts/abis/CategoryContract.json';
+import CategoryContract from '../../../data/contracts/abis/CategoryContract.json';
 
 //components
-import Loading from '../Loading';
+import Loading from '../../Loading';
 
 export default function CreateCategory({closeCreateCategory, walletAddress, reloadCategories}){
     const contractAddress = CategoryContract.networks[5777].address;

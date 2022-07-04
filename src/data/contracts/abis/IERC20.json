@@ -1112,11 +1112,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-<<<<<<< HEAD
   "updatedAt": "2022-06-29T23:40:02.847Z",
-=======
-  "updatedAt": "2022-06-04T03:08:49.516Z",
->>>>>>> bru_develop_register_page
   "devdoc": {
     "details": "Interface of the ERC20 standard as defined in the EIP.",
     "events": {

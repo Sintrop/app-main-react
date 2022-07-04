@@ -5,8 +5,8 @@ import Web3 from 'web3';
 import CategoryContract from '../../data/contracts/abis/CategoryContract.json';
 
 //components
-import CreateCategory from '../CreateCategory';
-import ItemsListISA from '../ItemsListISA';
+import CreateCategory from '../IsaPageComponents/CreateCategory';
+import ItemsListISA from '../IsaPageComponents/ItemsListISA';
 import Loading from '../Loading';
 
 export default function ISA({user, walletAddress}){

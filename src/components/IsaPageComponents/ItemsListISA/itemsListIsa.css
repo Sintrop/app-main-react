@@ -34,11 +34,34 @@ tr p{
     justify-content: end;
 }
 
-#td-vote-table-isa button{
-    background: none;
-    border: 0;
+.btn-unvote{
+    background-color: #fff;
+    border-color: purple;
+    color: purple;
     font-weight: bold;
-    color: green;
-    font-size: 16px;
+    border-radius: 8px;
+    padding: 5px 8px;
+    margin-right: 5px;
+    transition: 0.5s all;
+}
+
+.btn-unvote:hover{
     cursor: pointer;
+    color: #fff;
+    background-color: purple;
+}
+
+.btn-vote{
+    background-color: rgb(249,236,67);
+    border-color: rgb(249,236,67);
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 8px;
+    transition: 0.5s all;
+}
+
+.btn-vote:hover{
+    cursor: pointer;
+    border-color: #000;
 }

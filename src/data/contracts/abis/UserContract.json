@@ -322,11 +322,7 @@
                       }
                     ],
                     "functionName": {
-<<<<<<< HEAD
                       "name": "validator_revert_t_enum$_UserType_$4842",
-=======
-                      "name": "validator_revert_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                       "nodeType": "YulIdentifier",
                       "src": "265:39:31"
                     },
@@ -338,11 +334,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "abi_decode_t_enum$_UserType_$4842",
-=======
-            "name": "abi_decode_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -764,11 +756,7 @@
                           }
                         ],
                         "functionName": {
-<<<<<<< HEAD
                           "name": "abi_decode_t_enum$_UserType_$4842",
-=======
-                          "name": "abi_decode_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                           "nodeType": "YulIdentifier",
                           "src": "941:33:31"
                         },
@@ -787,11 +775,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "abi_decode_tuple_t_addresst_enum$_UserType_$4842",
-=======
-            "name": "abi_decode_tuple_t_addresst_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -967,11 +951,7 @@
                           }
                         ],
                         "functionName": {
-<<<<<<< HEAD
                           "name": "convert_t_enum$_UserType_$4842_to_t_uint8",
-=======
-                          "name": "convert_t_enum$_UserType_$4509_to_t_uint8",
->>>>>>> bru_develop_register_page
                           "nodeType": "YulIdentifier",
                           "src": "1367:41:31"
                         },
@@ -992,11 +972,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "abi_encode_t_enum$_UserType_$4842_to_t_uint8_fromStack",
-=======
-            "name": "abi_encode_t_enum$_UserType_$4509_to_t_uint8_fromStack",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -2011,11 +1987,7 @@
                       }
                     ],
                     "functionName": {
-<<<<<<< HEAD
                       "name": "abi_encode_t_enum$_UserType_$4842_to_t_uint8_fromStack",
-=======
-                      "name": "abi_encode_t_enum$_UserType_$4509_to_t_uint8_fromStack",
->>>>>>> bru_develop_register_page
                       "nodeType": "YulIdentifier",
                       "src": "4009:54:31"
                     },
@@ -2027,11 +1999,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "abi_encode_tuple_t_enum$_UserType_$4842__to_t_uint8__fromStack_reversed",
-=======
-            "name": "abi_encode_tuple_t_enum$_UserType_$4509__to_t_uint8__fromStack_reversed",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -3888,11 +3856,7 @@
                       }
                     ],
                     "functionName": {
-<<<<<<< HEAD
                       "name": "validator_assert_t_enum$_UserType_$4842",
-=======
-                      "name": "validator_assert_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                       "nodeType": "YulIdentifier",
                       "src": "8326:39:31"
                     },
@@ -3904,11 +3868,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "cleanup_t_enum$_UserType_$4842",
-=======
-            "name": "cleanup_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -4049,11 +4009,7 @@
                       }
                     ],
                     "functionName": {
-<<<<<<< HEAD
                       "name": "cleanup_t_enum$_UserType_$4842",
-=======
-                      "name": "cleanup_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                       "nodeType": "YulIdentifier",
                       "src": "8693:30:31"
                     },
@@ -4070,11 +4026,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "convert_t_enum$_UserType_$4842_to_t_uint8",
-=======
-            "name": "convert_t_enum$_UserType_$4509_to_t_uint8",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -5149,11 +5101,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "validator_assert_t_enum$_UserType_$4842",
-=======
-            "name": "validator_assert_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -5346,11 +5294,7 @@
                 }
               ]
             },
-<<<<<<< HEAD
             "name": "validator_revert_t_enum$_UserType_$4842",
-=======
-            "name": "validator_revert_t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -5364,37 +5308,21 @@
           }
         ]
       },
-<<<<<<< HEAD
       "contents": "{\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_t_enum$_UserType_$4842(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_enum$_UserType_$4842(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert(0, 0) }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_enum$_UserType_$4842(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert(0, 0) }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_enum$_UserType_$4842(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_t_enum$_UserType_$4842_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_UserType_$4842_to_t_uint8(value))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_t_stringliteral_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 38)\n        store_literal_in_memory_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_t_stringliteral_72a6a651fb4cd9ff87b3ff041092e509401f47f92bb4122586fcb66064d104bd_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 19)\n        store_literal_in_memory_72a6a651fb4cd9ff87b3ff041092e509401f47f92bb4122586fcb66064d104bd(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_t_stringliteral_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_t_stringliteral_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 18)\n        store_literal_in_memory_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_bool__to_t_bool__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_bool_to_t_bool_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_enum$_UserType_$4842__to_t_uint8__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_enum$_UserType_$4842_to_t_uint8_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr__to_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr__fromStack_reversed(headStart , value7, value6, value5, value4, value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 256)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        mstore(add(headStart, 32), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value1,  tail)\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n        mstore(add(headStart, 96), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value3,  tail)\n\n        mstore(add(headStart, 128), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value4,  tail)\n\n        mstore(add(headStart, 160), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value5,  tail)\n\n        mstore(add(headStart, 192), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value6,  tail)\n\n        mstore(add(headStart, 224), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value7,  tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_72a6a651fb4cd9ff87b3ff041092e509401f47f92bb4122586fcb66064d104bd__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_72a6a651fb4cd9ff87b3ff041092e509401f47f92bb4122586fcb66064d104bd_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function cleanup_t_enum$_UserType_$4842(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_UserType_$4842(value)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function convert_t_enum$_UserType_$4842_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_UserType_$4842(value)\n    }\n\n    function copy_memory_to_memory(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        if gt(i, length)\n        {\n            // clear end\n            mstore(add(dst, length), 0)\n        }\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function panic_error_0x21() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x21)\n        revert(0, 0x24)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function store_literal_in_memory_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe(memPtr) {\n\n        mstore(add(memPtr, 0), \"Ownable: new owner is the zero a\")\n\n        mstore(add(memPtr, 32), \"ddress\")\n\n    }\n\n    function store_literal_in_memory_72a6a651fb4cd9ff87b3ff041092e509401f47f92bb4122586fcb66064d104bd(memPtr) {\n\n        mstore(add(memPtr, 0), \"User already exists\")\n\n    }\n\n    function store_literal_in_memory_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe(memPtr) {\n\n        mstore(add(memPtr, 0), \"Ownable: caller is not the owner\")\n\n    }\n\n    function store_literal_in_memory_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455(memPtr) {\n\n        mstore(add(memPtr, 0), \"Not allowed caller\")\n\n    }\n\n    function validator_assert_t_enum$_UserType_$4842(value) {\n        if iszero(lt(value, 8)) { panic_error_0x21() }\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function validator_revert_t_enum$_UserType_$4842(value) {\n        if iszero(lt(value, 8)) { revert(0, 0) }\n    }\n\n}\n",
       "id": 31,
-=======
-      "contents": "{\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_t_enum$_UserType_$4509(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_enum$_UserType_$4509(value)\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert(0, 0) }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_enum$_UserType_$4509(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert(0, 0) }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_enum$_UserType_$4509(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_t_enum$_UserType_$4509_to_t_uint8_fromStack(value, pos) {\n        mstore(pos, convert_t_enum$_UserType_$4509_to_t_uint8(value))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_t_stringliteral_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 38)\n        store_literal_in_memory_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_t_stringliteral_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_t_stringliteral_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 18)\n        store_literal_in_memory_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_bool__to_t_bool__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_bool_to_t_bool_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_enum$_UserType_$4509__to_t_uint8__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_enum$_UserType_$4509_to_t_uint8_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr__to_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr_t_string_memory_ptr__fromStack_reversed(headStart , value6, value5, value4, value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 224)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n        mstore(add(headStart, 32), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value1,  tail)\n\n        mstore(add(headStart, 64), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value2,  tail)\n\n        mstore(add(headStart, 96), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value3,  tail)\n\n        mstore(add(headStart, 128), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value4,  tail)\n\n        mstore(add(headStart, 160), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value5,  tail)\n\n        mstore(add(headStart, 192), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value6,  tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_stringliteral_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function cleanup_t_enum$_UserType_$4509(value) -> cleaned {\n        cleaned := value validator_assert_t_enum$_UserType_$4509(value)\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function convert_t_enum$_UserType_$4509_to_t_uint8(value) -> converted {\n        converted := cleanup_t_enum$_UserType_$4509(value)\n    }\n\n    function copy_memory_to_memory(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        if gt(i, length)\n        {\n            // clear end\n            mstore(add(dst, length), 0)\n        }\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function panic_error_0x21() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x21)\n        revert(0, 0x24)\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function store_literal_in_memory_245f15ff17f551913a7a18385165551503906a406f905ac1c2437281a7cd0cfe(memPtr) {\n\n        mstore(add(memPtr, 0), \"Ownable: new owner is the zero a\")\n\n        mstore(add(memPtr, 32), \"ddress\")\n\n    }\n\n    function store_literal_in_memory_9924ebdf1add33d25d4ef888e16131f0a5687b0580a36c21b5c301a6c462effe(memPtr) {\n\n        mstore(add(memPtr, 0), \"Ownable: caller is not the owner\")\n\n    }\n\n    function store_literal_in_memory_9d898125dc05c77250301953367fc2dc589e7e9fca218c1a9c762d89c5fae455(memPtr) {\n\n        mstore(add(memPtr, 0), \"Not allowed caller\")\n\n    }\n\n    function validator_assert_t_enum$_UserType_$4509(value) {\n        if iszero(lt(value, 7)) { panic_error_0x21() }\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function validator_revert_t_enum$_UserType_$4509(value) {\n        if iszero(lt(value, 7)) { revert(0, 0) }\n    }\n\n}\n",
-      "id": 28,
->>>>>>> bru_develop_register_page
       "language": "Yul",
       "name": "#utility.yul"
     }
   ],
-<<<<<<< HEAD
   "sourceMap": "321:1315:23:-:0;;;;;;;;;;;;;921:32:0;940:12;:10;;;:12;;:::i;:::-;921:18;;;:32;;:::i;:::-;321:1315:23;;640:96:4;693:7;719:10;712:17;;640:96;:::o;2270:187:0:-;2343:16;2362:6;;;;;;;;;;;2343:25;;2387:8;2378:6;;:17;;;;;;;;;;;;;;;;;;2441:8;2410:40;;2431:8;2410:40;;;;;;;;;;;;2270:187;;:::o;321:1315:23:-;;;;;;;",
   "deployedSourceMap": "321:1315:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1059:428;;;:::i;:::-;;;;;;;;;;;;;;:::i;:::-;;;;;;;;419:25;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;895:93;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1668:101:0;;;:::i;:::-;;165:45:8;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1036:85:0;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;217:102:8;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;604:151:23;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1918:198:0;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1059:428:23;1124:13;1146;1168;1190;1212;1234;1256;1278;1309:172;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1059:428;;;;;;;;:::o;419:25::-;;;;:::o;895:93::-;947:8;971:5;:11;977:4;971:11;;;;;;;;;;;;;;;;;;;;;;;;;964:18;;895:93;;;:::o;1668:101:0:-;1259:12;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;1732:30:::1;1759:1;1732:18;:30::i;:::-;1668:101::o:0;165:45:8:-;;;;;;;;;;;;;;;;;;;;;;:::o;1036:85:0:-;1082:7;1108:6;;;;;;;;;;;1101:13;;1036:85;:::o;217:102:8:-;1259:12:0;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;309:4:8::1;284:13:::0;:22:::1;298:7;284:22;;;;;;;;;;;;;;;;:29;;;;;;;;;;;;;;;;;;217:102:::0;:::o;604:151:23:-;371:13:8;:25;385:10;371:25;;;;;;;;;;;;;;;;;;;;;;;;;363:56;;;;;;;;;;;;:::i;:::-;;;;;;;;;695:4:23::1;1577:18;1562:33;;;;;;;;;;;;;;;;:5;:11;1568:4;1562:11;;;;;;;;;;;;;;;;;;;;;;;;;:33;;;;;;;;;;;;;;;;;1554:65;;;;;;;;;;;;:::i;:::-;;;;;;;;;722:8:::2;708:5;:11;714:4;708:11;;;;;;;;;;;;;;;;:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;737:10;;:12;;;;;;;;;:::i;:::-;;;;;;426:1:8::1;604:151:23::0;;:::o;1918:198:0:-;1259:12;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;2026:1:::1;2006:22;;:8;:22;;;;1998:73;;;;;;;;;;;;:::i;:::-;;;;;;;;;2081:28;2100:8;2081:18;:28::i;:::-;1918:198:::0;:::o;640:96:4:-;693:7;719:10;712:17;;640:96;:::o;2270:187:0:-;2343:16;2362:6;;;;;;;;;;;2343:25;;2387:8;2378:6;;:17;;;;;;;;;;;;;;;;;;2441:8;2410:40;;2431:8;2410:40;;;;;;;;;;;;2270:187;;:::o;7:139:31:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:165::-;;249:6;236:20;227:29;;265:46;305:5;265:46;:::i;:::-;217:100;;;;:::o;323:262::-;;431:2;419:9;410:7;406:23;402:32;399:2;;;447:1;444;437:12;399:2;490:1;515:53;560:7;551:6;540:9;536:22;515:53;:::i;:::-;505:63;;461:117;389:196;;;;:::o;591:433::-;;;729:2;717:9;708:7;704:23;700:32;697:2;;;745:1;742;735:12;697:2;788:1;813:53;858:7;849:6;838:9;834:22;813:53;:::i;:::-;803:63;;759:117;915:2;941:66;999:7;990:6;979:9;975:22;941:66;:::i;:::-;931:76;;886:131;687:337;;;;;:::o;1030:118::-;1117:24;1135:5;1117:24;:::i;:::-;1112:3;1105:37;1095:53;;:::o;1154:109::-;1235:21;1250:5;1235:21;:::i;:::-;1230:3;1223:34;1213:50;;:::o;1269:153::-;1367:48;1409:5;1367:48;:::i;:::-;1362:3;1355:61;1345:77;;:::o;1428:364::-;;1544:39;1577:5;1544:39;:::i;:::-;1599:71;1663:6;1658:3;1599:71;:::i;:::-;1592:78;;1679:52;1724:6;1719:3;1712:4;1705:5;1701:16;1679:52;:::i;:::-;1756:29;1778:6;1756:29;:::i;:::-;1751:3;1747:39;1740:46;;1520:272;;;;;:::o;1798:366::-;;1961:67;2025:2;2020:3;1961:67;:::i;:::-;1954:74;;2037:93;2126:3;2037:93;:::i;:::-;2155:2;2150:3;2146:12;2139:19;;1944:220;;;:::o;2170:366::-;;2333:67;2397:2;2392:3;2333:67;:::i;:::-;2326:74;;2409:93;2498:3;2409:93;:::i;:::-;2527:2;2522:3;2518:12;2511:19;;2316:220;;;:::o;2542:366::-;;2705:67;2769:2;2764:3;2705:67;:::i;:::-;2698:74;;2781:93;2870:3;2781:93;:::i;:::-;2899:2;2894:3;2890:12;2883:19;;2688:220;;;:::o;2914:366::-;;3077:67;3141:2;3136:3;3077:67;:::i;:::-;3070:74;;3153:93;3242:3;3153:93;:::i;:::-;3271:2;3266:3;3262:12;3255:19;;3060:220;;;:::o;3286:118::-;3373:24;3391:5;3373:24;:::i;:::-;3368:3;3361:37;3351:53;;:::o;3410:222::-;;3541:2;3530:9;3526:18;3518:26;;3554:71;3622:1;3611:9;3607:17;3598:6;3554:71;:::i;:::-;3508:124;;;;:::o;3638:210::-;;3763:2;3752:9;3748:18;3740:26;;3776:65;3838:1;3827:9;3823:17;3814:6;3776:65;:::i;:::-;3730:118;;;;:::o;3854:244::-;;3996:2;3985:9;3981:18;3973:26;;4009:82;4088:1;4077:9;4073:17;4064:6;4009:82;:::i;:::-;3963:135;;;;:::o;4104:1725::-;;4591:3;4580:9;4576:19;4568:27;;4641:9;4635:4;4631:20;4627:1;4616:9;4612:17;4605:47;4669:78;4742:4;4733:6;4669:78;:::i;:::-;4661:86;;4794:9;4788:4;4784:20;4779:2;4768:9;4764:18;4757:48;4822:78;4895:4;4886:6;4822:78;:::i;:::-;4814:86;;4947:9;4941:4;4937:20;4932:2;4921:9;4917:18;4910:48;4975:78;5048:4;5039:6;4975:78;:::i;:::-;4967:86;;5100:9;5094:4;5090:20;5085:2;5074:9;5070:18;5063:48;5128:78;5201:4;5192:6;5128:78;:::i;:::-;5120:86;;5254:9;5248:4;5244:20;5238:3;5227:9;5223:19;5216:49;5282:78;5355:4;5346:6;5282:78;:::i;:::-;5274:86;;5408:9;5402:4;5398:20;5392:3;5381:9;5377:19;5370:49;5436:78;5509:4;5500:6;5436:78;:::i;:::-;5428:86;;5562:9;5556:4;5552:20;5546:3;5535:9;5531:19;5524:49;5590:78;5663:4;5654:6;5590:78;:::i;:::-;5582:86;;5716:9;5710:4;5706:20;5700:3;5689:9;5685:19;5678:49;5744:78;5817:4;5808:6;5744:78;:::i;:::-;5736:86;;4558:1271;;;;;;;;;;;:::o;5835:419::-;;6039:2;6028:9;6024:18;6016:26;;6088:9;6082:4;6078:20;6074:1;6063:9;6059:17;6052:47;6116:131;6242:4;6116:131;:::i;:::-;6108:139;;6006:248;;;:::o;6260:419::-;;6464:2;6453:9;6449:18;6441:26;;6513:9;6507:4;6503:20;6499:1;6488:9;6484:17;6477:47;6541:131;6667:4;6541:131;:::i;:::-;6533:139;;6431:248;;;:::o;6685:419::-;;6889:2;6878:9;6874:18;6866:26;;6938:9;6932:4;6928:20;6924:1;6913:9;6909:17;6902:47;6966:131;7092:4;6966:131;:::i;:::-;6958:139;;6856:248;;;:::o;7110:419::-;;7314:2;7303:9;7299:18;7291:26;;7363:9;7357:4;7353:20;7349:1;7338:9;7334:17;7327:47;7391:131;7517:4;7391:131;:::i;:::-;7383:139;;7281:248;;;:::o;7535:222::-;;7666:2;7655:9;7651:18;7643:26;;7679:71;7747:1;7736:9;7732:17;7723:6;7679:71;:::i;:::-;7633:124;;;;:::o;7763:99::-;;7849:5;7843:12;7833:22;;7822:40;;;:::o;7868:169::-;;7986:6;7981:3;7974:19;8026:4;8021:3;8017:14;8002:29;;7964:73;;;;:::o;8043:96::-;;8109:24;8127:5;8109:24;:::i;:::-;8098:35;;8088:51;;;:::o;8145:90::-;;8222:5;8215:13;8208:21;8197:32;;8187:48;;;:::o;8241:137::-;;8320:5;8309:16;;8326:46;8366:5;8326:46;:::i;:::-;8299:79;;;:::o;8384:126::-;;8461:42;8454:5;8450:54;8439:65;;8429:81;;;:::o;8516:77::-;;8582:5;8571:16;;8561:32;;;:::o;8599:137::-;;8693:37;8724:5;8693:37;:::i;:::-;8680:50;;8670:66;;;:::o;8742:307::-;8810:1;8820:113;8834:6;8831:1;8828:13;8820:113;;;8919:1;8914:3;8910:11;8904:18;8900:1;8895:3;8891:11;8884:39;8856:2;8853:1;8849:10;8844:15;;8820:113;;;8951:6;8948:1;8945:13;8942:2;;;9031:1;9022:6;9017:3;9013:16;9006:27;8942:2;8791:258;;;;:::o;9055:233::-;;9117:24;9135:5;9117:24;:::i;:::-;9108:33;;9163:66;9156:5;9153:77;9150:2;;;9233:18;;:::i;:::-;9150:2;9280:1;9273:5;9269:13;9262:20;;9098:190;;;:::o;9294:180::-;9342:77;9339:1;9332:88;9439:4;9436:1;9429:15;9463:4;9460:1;9453:15;9480:180;9528:77;9525:1;9518:88;9625:4;9622:1;9615:15;9649:4;9646:1;9639:15;9666:102;;9758:2;9754:7;9749:2;9742:5;9738:14;9734:28;9724:38;;9714:54;;;:::o;9774:225::-;9914:34;9910:1;9902:6;9898:14;9891:58;9983:8;9978:2;9970:6;9966:15;9959:33;9880:119;:::o;10005:169::-;10145:21;10141:1;10133:6;10129:14;10122:45;10111:63;:::o;10180:182::-;10320:34;10316:1;10308:6;10304:14;10297:58;10286:76;:::o;10368:168::-;10508:20;10504:1;10496:6;10492:14;10485:44;10474:62;:::o;10542:118::-;10628:1;10621:5;10618:12;10608:2;;10634:18;;:::i;:::-;10608:2;10598:62;:::o;10666:122::-;10739:24;10757:5;10739:24;:::i;:::-;10732:5;10729:35;10719:2;;10778:1;10775;10768:12;10719:2;10709:79;:::o;10794:112::-;10880:1;10873:5;10870:12;10860:2;;10896:1;10893;10886:12;10860:2;10850:56;:::o",
   "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\r\nimport \"./types/UserTypes.sol\";\r\nimport \"./Callable.sol\";\r\n\r\n/**\r\n * @title UserContract\r\n * @dev This contract work as a centralized user's system, where all users has your userType here\r\n */\r\ncontract UserContract is Ownable, Callable {\r\n  mapping(address => UserType) internal users;\r\n\r\n  uint256 public usersCount;\r\n\r\n  /**\r\n   * @dev Add new user in the system\r\n   * @param addr The address of the user\r\n   * @param userType The type of the user - enum UserType\r\n   */\r\n  function addUser(address addr, UserType userType) public mustBeAllowedCaller mustNotExists(addr) {\r\n    users[addr] = userType;\r\n    usersCount++;\r\n  }\r\n\r\n  /**\r\n   * @dev Returns the user type if the user is registered\r\n   * @param addr the user address that want check if exists\r\n   */\r\n  function getUser(address addr) public view returns (UserType) {\r\n    return users[addr];\r\n  }\r\n\r\n  /**\r\n   * @dev Returns the enum UserType of the system\r\n   */\r\n  function userTypes()\r\n    public\r\n    pure\r\n    returns (\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory\r\n    )\r\n  {\r\n    return (\r\n      \"UNDEFINED\",\r\n      \"PRODUCER\",\r\n      \"ACTIVIST\",\r\n      \"RESEARCHER\",\r\n      \"DEVELOPER\",\r\n      \"ADVISER\",\r\n      \"CONTRIBUTOR\",\r\n      \"INVESTOR\"\r\n    );\r\n  }\r\n\r\n  // MODIFIER\r\n\r\n  modifier mustNotExists(address addr) {\r\n    require(users[addr] == UserType.UNDEFINED, \"User already exists\");\r\n    _;\r\n  }\r\n}\r\n",
   "sourcePath": "C:\\Users\\emano\\Documents\\Sintrop\\core-contracts\\contracts\\UserContract.sol",
-=======
-  "sourceMap": "321:1107:21:-:0;;;;;;;;;;;;;921:32:0;940:12;:10;;;:12;;:::i;:::-;921:18;;;:32;;:::i;:::-;321:1107:21;;640:96:4;693:7;719:10;712:17;;640:96;:::o;2270:187:0:-;2343:16;2362:6;;;;;;;;;;;2343:25;;2387:8;2378:6;;:17;;;;;;;;;;;;;;;;;;2441:8;2410:40;;2431:8;2410:40;;;;;;;;;;;;2270:187;;:::o;321:1107:21:-;;;;;;;",
-  "deployedSourceMap": "321:1107:21:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1039:386;;;:::i;:::-;;;;;;;;;;;;;:::i;:::-;;;;;;;;419:25;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;875:93;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1668:101:0;;;:::i;:::-;;165:45:7;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1036:85:0;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;217:102:7;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;604:131:21;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1918:198:0;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1039:386:21;1104:13;1126;1148;1170;1192;1214;1236;1267:152;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1039:386;;;;;;;:::o;419:25::-;;;;:::o;875:93::-;927:8;951:5;:11;957:4;951:11;;;;;;;;;;;;;;;;;;;;;;;;;944:18;;875:93;;;:::o;1668:101:0:-;1259:12;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;1732:30:::1;1759:1;1732:18;:30::i;:::-;1668:101::o:0;165:45:7:-;;;;;;;;;;;;;;;;;;;;;;:::o;1036:85:0:-;1082:7;1108:6;;;;;;;;;;;1101:13;;1036:85;:::o;217:102:7:-;1259:12:0;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;309:4:7::1;284:13:::0;:22:::1;298:7;284:22;;;;;;;;;;;;;;;;:29;;;;;;;;;;;;;;;;;;217:102:::0;:::o;604:131:21:-;371:13:7;:25;385:10;371:25;;;;;;;;;;;;;;;;;;;;;;;;;363:56;;;;;;;;;;;;:::i;:::-;;;;;;;;;702:8:21::1;688:5;:11;694:4;688:11;;;;;;;;;;;;;;;;:22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;717:10;;:12;;;;;;;;;:::i;:::-;;;;;;604:131:::0;;:::o;1918:198:0:-;1259:12;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;2026:1:::1;2006:22;;:8;:22;;;;1998:73;;;;;;;;;;;;:::i;:::-;;;;;;;;;2081:28;2100:8;2081:18;:28::i;:::-;1918:198:::0;:::o;640:96:4:-;693:7;719:10;712:17;;640:96;:::o;2270:187:0:-;2343:16;2362:6;;;;;;;;;;;2343:25;;2387:8;2378:6;;:17;;;;;;;;;;;;;;;;;;2441:8;2410:40;;2431:8;2410:40;;;;;;;;;;;;2270:187;;:::o;7:139:28:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:165::-;;249:6;236:20;227:29;;265:46;305:5;265:46;:::i;:::-;217:100;;;;:::o;323:262::-;;431:2;419:9;410:7;406:23;402:32;399:2;;;447:1;444;437:12;399:2;490:1;515:53;560:7;551:6;540:9;536:22;515:53;:::i;:::-;505:63;;461:117;389:196;;;;:::o;591:433::-;;;729:2;717:9;708:7;704:23;700:32;697:2;;;745:1;742;735:12;697:2;788:1;813:53;858:7;849:6;838:9;834:22;813:53;:::i;:::-;803:63;;759:117;915:2;941:66;999:7;990:6;979:9;975:22;941:66;:::i;:::-;931:76;;886:131;687:337;;;;;:::o;1030:118::-;1117:24;1135:5;1117:24;:::i;:::-;1112:3;1105:37;1095:53;;:::o;1154:109::-;1235:21;1250:5;1235:21;:::i;:::-;1230:3;1223:34;1213:50;;:::o;1269:153::-;1367:48;1409:5;1367:48;:::i;:::-;1362:3;1355:61;1345:77;;:::o;1428:364::-;;1544:39;1577:5;1544:39;:::i;:::-;1599:71;1663:6;1658:3;1599:71;:::i;:::-;1592:78;;1679:52;1724:6;1719:3;1712:4;1705:5;1701:16;1679:52;:::i;:::-;1756:29;1778:6;1756:29;:::i;:::-;1751:3;1747:39;1740:46;;1520:272;;;;;:::o;1798:366::-;;1961:67;2025:2;2020:3;1961:67;:::i;:::-;1954:74;;2037:93;2126:3;2037:93;:::i;:::-;2155:2;2150:3;2146:12;2139:19;;1944:220;;;:::o;2170:366::-;;2333:67;2397:2;2392:3;2333:67;:::i;:::-;2326:74;;2409:93;2498:3;2409:93;:::i;:::-;2527:2;2522:3;2518:12;2511:19;;2316:220;;;:::o;2542:366::-;;2705:67;2769:2;2764:3;2705:67;:::i;:::-;2698:74;;2781:93;2870:3;2781:93;:::i;:::-;2899:2;2894:3;2890:12;2883:19;;2688:220;;;:::o;2914:118::-;3001:24;3019:5;3001:24;:::i;:::-;2996:3;2989:37;2979:53;;:::o;3038:222::-;;3169:2;3158:9;3154:18;3146:26;;3182:71;3250:1;3239:9;3235:17;3226:6;3182:71;:::i;:::-;3136:124;;;;:::o;3266:210::-;;3391:2;3380:9;3376:18;3368:26;;3404:65;3466:1;3455:9;3451:17;3442:6;3404:65;:::i;:::-;3358:118;;;;:::o;3482:244::-;;3624:2;3613:9;3609:18;3601:26;;3637:82;3716:1;3705:9;3701:17;3692:6;3637:82;:::i;:::-;3591:135;;;;:::o;3732:1523::-;;4171:3;4160:9;4156:19;4148:27;;4221:9;4215:4;4211:20;4207:1;4196:9;4192:17;4185:47;4249:78;4322:4;4313:6;4249:78;:::i;:::-;4241:86;;4374:9;4368:4;4364:20;4359:2;4348:9;4344:18;4337:48;4402:78;4475:4;4466:6;4402:78;:::i;:::-;4394:86;;4527:9;4521:4;4517:20;4512:2;4501:9;4497:18;4490:48;4555:78;4628:4;4619:6;4555:78;:::i;:::-;4547:86;;4680:9;4674:4;4670:20;4665:2;4654:9;4650:18;4643:48;4708:78;4781:4;4772:6;4708:78;:::i;:::-;4700:86;;4834:9;4828:4;4824:20;4818:3;4807:9;4803:19;4796:49;4862:78;4935:4;4926:6;4862:78;:::i;:::-;4854:86;;4988:9;4982:4;4978:20;4972:3;4961:9;4957:19;4950:49;5016:78;5089:4;5080:6;5016:78;:::i;:::-;5008:86;;5142:9;5136:4;5132:20;5126:3;5115:9;5111:19;5104:49;5170:78;5243:4;5234:6;5170:78;:::i;:::-;5162:86;;4138:1117;;;;;;;;;;:::o;5261:419::-;;5465:2;5454:9;5450:18;5442:26;;5514:9;5508:4;5504:20;5500:1;5489:9;5485:17;5478:47;5542:131;5668:4;5542:131;:::i;:::-;5534:139;;5432:248;;;:::o;5686:419::-;;5890:2;5879:9;5875:18;5867:26;;5939:9;5933:4;5929:20;5925:1;5914:9;5910:17;5903:47;5967:131;6093:4;5967:131;:::i;:::-;5959:139;;5857:248;;;:::o;6111:419::-;;6315:2;6304:9;6300:18;6292:26;;6364:9;6358:4;6354:20;6350:1;6339:9;6335:17;6328:47;6392:131;6518:4;6392:131;:::i;:::-;6384:139;;6282:248;;;:::o;6536:222::-;;6667:2;6656:9;6652:18;6644:26;;6680:71;6748:1;6737:9;6733:17;6724:6;6680:71;:::i;:::-;6634:124;;;;:::o;6764:99::-;;6850:5;6844:12;6834:22;;6823:40;;;:::o;6869:169::-;;6987:6;6982:3;6975:19;7027:4;7022:3;7018:14;7003:29;;6965:73;;;;:::o;7044:96::-;;7110:24;7128:5;7110:24;:::i;:::-;7099:35;;7089:51;;;:::o;7146:90::-;;7223:5;7216:13;7209:21;7198:32;;7188:48;;;:::o;7242:137::-;;7321:5;7310:16;;7327:46;7367:5;7327:46;:::i;:::-;7300:79;;;:::o;7385:126::-;;7462:42;7455:5;7451:54;7440:65;;7430:81;;;:::o;7517:77::-;;7583:5;7572:16;;7562:32;;;:::o;7600:137::-;;7694:37;7725:5;7694:37;:::i;:::-;7681:50;;7671:66;;;:::o;7743:307::-;7811:1;7821:113;7835:6;7832:1;7829:13;7821:113;;;7920:1;7915:3;7911:11;7905:18;7901:1;7896:3;7892:11;7885:39;7857:2;7854:1;7850:10;7845:15;;7821:113;;;7952:6;7949:1;7946:13;7943:2;;;8032:1;8023:6;8018:3;8014:16;8007:27;7943:2;7792:258;;;;:::o;8056:233::-;;8118:24;8136:5;8118:24;:::i;:::-;8109:33;;8164:66;8157:5;8154:77;8151:2;;;8234:18;;:::i;:::-;8151:2;8281:1;8274:5;8270:13;8263:20;;8099:190;;;:::o;8295:180::-;8343:77;8340:1;8333:88;8440:4;8437:1;8430:15;8464:4;8461:1;8454:15;8481:180;8529:77;8526:1;8519:88;8626:4;8623:1;8616:15;8650:4;8647:1;8640:15;8667:102;;8759:2;8755:7;8750:2;8743:5;8739:14;8735:28;8725:38;;8715:54;;;:::o;8775:225::-;8915:34;8911:1;8903:6;8899:14;8892:58;8984:8;8979:2;8971:6;8967:15;8960:33;8881:119;:::o;9006:182::-;9146:34;9142:1;9134:6;9130:14;9123:58;9112:76;:::o;9194:168::-;9334:20;9330:1;9322:6;9318:14;9311:44;9300:62;:::o;9368:118::-;9454:1;9447:5;9444:12;9434:2;;9460:18;;:::i;:::-;9434:2;9424:62;:::o;9492:122::-;9565:24;9583:5;9565:24;:::i;:::-;9558:5;9555:35;9545:2;;9604:1;9601;9594:12;9545:2;9535:79;:::o;9620:112::-;9706:1;9699:5;9696:12;9686:2;;9722:1;9719;9712:12;9686:2;9676:56;:::o",
-  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\r\nimport \"./types/UserTypes.sol\";\r\nimport \"./Callable.sol\";\r\n\r\n/**\r\n * @title UserContract\r\n * @dev This contract work as a centralized user's system, where all users has your userType here\r\n */\r\ncontract UserContract is Ownable, Callable {\r\n  mapping(address => UserType) internal users;\r\n\r\n  uint256 public usersCount;\r\n\r\n  /**\r\n   * @dev Add new user in the system\r\n   * @param addr The address of the user\r\n   * @param userType The type of the user - enum UserType\r\n   */\r\n  function addUser(address addr, UserType userType) public mustBeAllowedCaller {\r\n    users[addr] = userType;\r\n    usersCount++;\r\n  }\r\n\r\n  /**\r\n   * @dev Returns the user type if the user is registered\r\n   * @param addr the user address that want check if exists\r\n   */\r\n  function getUser(address addr) public view returns (UserType) {\r\n    return users[addr];\r\n  }\r\n\r\n  /**\r\n   * @dev Returns the enum UserType of the system\r\n   */\r\n  function userTypes()\r\n    public\r\n    pure\r\n    returns (\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory,\r\n      string memory\r\n    )\r\n  {\r\n    return (\r\n      \"PRODUCER\",\r\n      \"ACTIVIST\",\r\n      \"RESEARCHER\",\r\n      \"DEVELOPER\",\r\n      \"ADVISER\",\r\n      \"CONTRIBUTOR\",\r\n      \"INVESTOR\"\r\n    );\r\n  }\r\n}\r\n",
-  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts\\contracts\\UserContract.sol",
->>>>>>> bru_develop_register_page
   "ast": {
     "absolutePath": "project:/contracts/UserContract.sol",
     "exportedSymbols": {
       "Callable": [
-<<<<<<< HEAD
         1588
-=======
-        1414
->>>>>>> bru_develop_register_page
       ],
       "Context": [
         817
@@ -5403,7 +5331,6 @@
         104
       ],
       "UserContract": [
-<<<<<<< HEAD
         4650
       ],
       "UserType": [
@@ -5411,24 +5338,11 @@
       ]
     },
     "id": 4651,
-=======
-        4347
-      ],
-      "UserType": [
-        4509
-      ]
-    },
-    "id": 4348,
->>>>>>> bru_develop_register_page
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-<<<<<<< HEAD
         "id": 4549,
-=======
-        "id": 4268,
->>>>>>> bru_develop_register_page
         "literals": [
           "solidity",
           ">=",
@@ -5444,17 +5358,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/access/Ownable.sol",
         "file": "@openzeppelin/contracts/access/Ownable.sol",
-<<<<<<< HEAD
         "id": 4550,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 4651,
-=======
-        "id": 4269,
-        "nameLocation": "-1:-1:-1",
-        "nodeType": "ImportDirective",
-        "scope": 4348,
->>>>>>> bru_develop_register_page
         "sourceUnit": 105,
         "src": "73:52:23",
         "symbolAliases": [],
@@ -5463,42 +5370,24 @@
       {
         "absolutePath": "project:/contracts/types/UserTypes.sol",
         "file": "./types/UserTypes.sol",
-<<<<<<< HEAD
         "id": 4551,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 4651,
         "sourceUnit": 4843,
         "src": "127:31:23",
-=======
-        "id": 4270,
-        "nameLocation": "-1:-1:-1",
-        "nodeType": "ImportDirective",
-        "scope": 4348,
-        "sourceUnit": 4510,
-        "src": "127:31:21",
->>>>>>> bru_develop_register_page
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "project:/contracts/Callable.sol",
         "file": "./Callable.sol",
-<<<<<<< HEAD
         "id": 4552,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 4651,
         "sourceUnit": 1589,
         "src": "160:24:23",
-=======
-        "id": 4271,
-        "nameLocation": "-1:-1:-1",
-        "nodeType": "ImportDirective",
-        "scope": 4348,
-        "sourceUnit": 1415,
-        "src": "160:24:21",
->>>>>>> bru_develop_register_page
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -5507,27 +5396,18 @@
         "baseContracts": [
           {
             "baseName": {
-<<<<<<< HEAD
               "id": 4554,
-=======
-              "id": 4273,
->>>>>>> bru_develop_register_page
               "name": "Ownable",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 104,
               "src": "346:7:23"
             },
-<<<<<<< HEAD
             "id": 4555,
-=======
-            "id": 4274,
->>>>>>> bru_develop_register_page
             "nodeType": "InheritanceSpecifier",
             "src": "346:7:23"
           },
           {
             "baseName": {
-<<<<<<< HEAD
               "id": 4556,
               "name": "Callable",
               "nodeType": "IdentifierPath",
@@ -5535,15 +5415,6 @@
               "src": "355:8:23"
             },
             "id": 4557,
-=======
-              "id": 4275,
-              "name": "Callable",
-              "nodeType": "IdentifierPath",
-              "referencedDeclaration": 1414,
-              "src": "355:8:21"
-            },
-            "id": 4276,
->>>>>>> bru_develop_register_page
             "nodeType": "InheritanceSpecifier",
             "src": "355:8:23"
           }
@@ -5551,35 +5422,20 @@
         "contractDependencies": [
           104,
           817,
-<<<<<<< HEAD
           1588
         ],
         "contractKind": "contract",
         "documentation": {
           "id": 4553,
-=======
-          1414
-        ],
-        "contractKind": "contract",
-        "documentation": {
-          "id": 4272,
->>>>>>> bru_develop_register_page
           "nodeType": "StructuredDocumentation",
           "src": "188:131:23",
           "text": " @title UserContract\n @dev This contract work as a centralized user's system, where all users has your userType here"
         },
         "fullyImplemented": true,
-<<<<<<< HEAD
         "id": 4650,
         "linearizedBaseContracts": [
           4650,
           1588,
-=======
-        "id": 4347,
-        "linearizedBaseContracts": [
-          4347,
-          1414,
->>>>>>> bru_develop_register_page
           104,
           817
         ],
@@ -5589,16 +5445,11 @@
         "nodes": [
           {
             "constant": false,
-<<<<<<< HEAD
             "id": 4562,
-=======
-            "id": 4281,
->>>>>>> bru_develop_register_page
             "mutability": "mutable",
             "name": "users",
             "nameLocation": "407:5:23",
             "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
             "scope": 4650,
             "src": "369:43:23",
             "stateVariable": true,
@@ -5611,20 +5462,6 @@
               "id": 4561,
               "keyType": {
                 "id": 4558,
-=======
-            "scope": 4347,
-            "src": "369:43:21",
-            "stateVariable": true,
-            "storageLocation": "default",
-            "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_address_$_t_enum$_UserType_$4509_$",
-              "typeString": "mapping(address => enum UserType)"
-            },
-            "typeName": {
-              "id": 4280,
-              "keyType": {
-                "id": 4277,
->>>>>>> bru_develop_register_page
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "377:7:23",
@@ -5636,7 +5473,6 @@
               "nodeType": "Mapping",
               "src": "369:28:23",
               "typeDescriptions": {
-<<<<<<< HEAD
                 "typeIdentifier": "t_mapping$_t_address_$_t_enum$_UserType_$4842_$",
                 "typeString": "mapping(address => enum UserType)"
               },
@@ -5654,25 +5490,6 @@
                 "src": "388:8:23",
                 "typeDescriptions": {
                   "typeIdentifier": "t_enum$_UserType_$4842",
-=======
-                "typeIdentifier": "t_mapping$_t_address_$_t_enum$_UserType_$4509_$",
-                "typeString": "mapping(address => enum UserType)"
-              },
-              "valueType": {
-                "id": 4279,
-                "nodeType": "UserDefinedTypeName",
-                "pathNode": {
-                  "id": 4278,
-                  "name": "UserType",
-                  "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 4509,
-                  "src": "388:8:21"
-                },
-                "referencedDeclaration": 4509,
-                "src": "388:8:21",
-                "typeDescriptions": {
-                  "typeIdentifier": "t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                   "typeString": "enum UserType"
                 }
               }
@@ -5682,22 +5499,13 @@
           {
             "constant": false,
             "functionSelector": "6ba13a82",
-<<<<<<< HEAD
             "id": 4564,
-=======
-            "id": 4283,
->>>>>>> bru_develop_register_page
             "mutability": "mutable",
             "name": "usersCount",
             "nameLocation": "434:10:23",
             "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
             "scope": 4650,
             "src": "419:25:23",
-=======
-            "scope": 4347,
-            "src": "419:25:21",
->>>>>>> bru_develop_register_page
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -5705,11 +5513,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-<<<<<<< HEAD
               "id": 4563,
-=======
-              "id": 4282,
->>>>>>> bru_develop_register_page
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "419:7:23",
@@ -5722,28 +5526,19 @@
           },
           {
             "body": {
-<<<<<<< HEAD
               "id": 4587,
-=======
-              "id": 4303,
->>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "701:54:23",
               "statements": [
                 {
                   "expression": {
-<<<<<<< HEAD
                     "id": 4582,
-=======
-                    "id": 4298,
->>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-<<<<<<< HEAD
                         "id": 4578,
                         "name": "users",
                         "nodeType": "Identifier",
@@ -5763,27 +5558,6 @@
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 4567,
                         "src": "714:4:23",
-=======
-                        "id": 4294,
-                        "name": "users",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 4281,
-                        "src": "688:5:21",
-                        "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_address_$_t_enum$_UserType_$4509_$",
-                          "typeString": "mapping(address => enum UserType)"
-                        }
-                      },
-                      "id": 4296,
-                      "indexExpression": {
-                        "id": 4295,
-                        "name": "addr",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 4286,
-                        "src": "694:4:21",
->>>>>>> bru_develop_register_page
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -5796,18 +5570,13 @@
                       "nodeType": "IndexAccess",
                       "src": "708:11:23",
                       "typeDescriptions": {
-<<<<<<< HEAD
                         "typeIdentifier": "t_enum$_UserType_$4842",
-=======
-                        "typeIdentifier": "t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                         "typeString": "enum UserType"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-<<<<<<< HEAD
                       "id": 4581,
                       "name": "userType",
                       "nodeType": "Identifier",
@@ -5816,44 +5585,22 @@
                       "src": "722:8:23",
                       "typeDescriptions": {
                         "typeIdentifier": "t_enum$_UserType_$4842",
-=======
-                      "id": 4297,
-                      "name": "userType",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 4289,
-                      "src": "702:8:21",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                         "typeString": "enum UserType"
                       }
                     },
                     "src": "708:22:23",
                     "typeDescriptions": {
-<<<<<<< HEAD
                       "typeIdentifier": "t_enum$_UserType_$4842",
                       "typeString": "enum UserType"
                     }
                   },
                   "id": 4583,
-=======
-                      "typeIdentifier": "t_enum$_UserType_$4509",
-                      "typeString": "enum UserType"
-                    }
-                  },
-                  "id": 4299,
->>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "708:22:23"
                 },
                 {
                   "expression": {
-<<<<<<< HEAD
                     "id": 4585,
-=======
-                    "id": 4301,
->>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -5863,21 +5610,12 @@
                     "prefix": false,
                     "src": "737:12:23",
                     "subExpression": {
-<<<<<<< HEAD
                       "id": 4584,
                       "name": "usersCount",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 4564,
                       "src": "737:10:23",
-=======
-                      "id": 4300,
-                      "name": "usersCount",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 4283,
-                      "src": "717:10:21",
->>>>>>> bru_develop_register_page
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -5888,37 +5626,24 @@
                       "typeString": "uint256"
                     }
                   },
-<<<<<<< HEAD
                   "id": 4586,
-=======
-                  "id": 4302,
->>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "737:12:23"
                 }
               ]
             },
             "documentation": {
-<<<<<<< HEAD
               "id": 4565,
-=======
-              "id": 4284,
->>>>>>> bru_develop_register_page
               "nodeType": "StructuredDocumentation",
               "src": "451:149:23",
               "text": " @dev Add new user in the system\n @param addr The address of the user\n @param userType The type of the user - enum UserType"
             },
             "functionSelector": "9c3eead9",
-<<<<<<< HEAD
             "id": 4588,
-=======
-            "id": 4304,
->>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-<<<<<<< HEAD
                 "id": 4573,
                 "modifierName": {
                   "id": 4572,
@@ -5926,15 +5651,6 @@
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 1587,
                   "src": "661:19:23"
-=======
-                "id": 4292,
-                "modifierName": {
-                  "id": 4291,
-                  "name": "mustBeAllowedCaller",
-                  "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1413,
-                  "src": "661:19:21"
->>>>>>> bru_develop_register_page
                 },
                 "nodeType": "ModifierInvocation",
                 "src": "661:19:23"
@@ -5970,31 +5686,18 @@
             "nameLocation": "613:7:23",
             "nodeType": "FunctionDefinition",
             "parameters": {
-<<<<<<< HEAD
               "id": 4571,
-=======
-              "id": 4290,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 4567,
-=======
-                  "id": 4286,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "addr",
                   "nameLocation": "629:4:23",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4588,
                   "src": "621:12:23",
-=======
-                  "scope": 4304,
-                  "src": "621:12:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -6002,11 +5705,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-<<<<<<< HEAD
                     "id": 4566,
-=======
-                    "id": 4285,
->>>>>>> bru_develop_register_page
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "621:7:23",
@@ -6020,16 +5719,11 @@
                 },
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 4570,
-=======
-                  "id": 4289,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "userType",
                   "nameLocation": "644:8:23",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4588,
                   "src": "635:17:23",
                   "stateVariable": false,
@@ -6052,30 +5746,6 @@
                     "src": "635:8:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_enum$_UserType_$4842",
-=======
-                  "scope": 4304,
-                  "src": "635:17:21",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_UserType_$4509",
-                    "typeString": "enum UserType"
-                  },
-                  "typeName": {
-                    "id": 4288,
-                    "nodeType": "UserDefinedTypeName",
-                    "pathNode": {
-                      "id": 4287,
-                      "name": "UserType",
-                      "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 4509,
-                      "src": "635:8:21"
-                    },
-                    "referencedDeclaration": 4509,
-                    "src": "635:8:21",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                       "typeString": "enum UserType"
                     }
                   },
@@ -6085,40 +5755,26 @@
               "src": "620:33:23"
             },
             "returnParameters": {
-<<<<<<< HEAD
               "id": 4577,
-=======
-              "id": 4293,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "701:0:23"
             },
-<<<<<<< HEAD
             "scope": 4650,
             "src": "604:151:23",
-=======
-            "scope": 4347,
-            "src": "604:131:21",
->>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-<<<<<<< HEAD
               "id": 4601,
-=======
-              "id": 4317,
->>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "957:31:23",
               "statements": [
                 {
                   "expression": {
                     "baseExpression": {
-<<<<<<< HEAD
                       "id": 4597,
                       "name": "users",
                       "nodeType": "Identifier",
@@ -6138,27 +5794,6 @@
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 4591,
                       "src": "977:4:23",
-=======
-                      "id": 4313,
-                      "name": "users",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 4281,
-                      "src": "951:5:21",
-                      "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_address_$_t_enum$_UserType_$4509_$",
-                        "typeString": "mapping(address => enum UserType)"
-                      }
-                    },
-                    "id": 4315,
-                    "indexExpression": {
-                      "id": 4314,
-                      "name": "addr",
-                      "nodeType": "Identifier",
-                      "overloadedDeclarations": [],
-                      "referencedDeclaration": 4307,
-                      "src": "957:4:21",
->>>>>>> bru_develop_register_page
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
                         "typeString": "address"
@@ -6171,42 +5806,25 @@
                     "nodeType": "IndexAccess",
                     "src": "971:11:23",
                     "typeDescriptions": {
-<<<<<<< HEAD
                       "typeIdentifier": "t_enum$_UserType_$4842",
                       "typeString": "enum UserType"
                     }
                   },
                   "functionReturnParameters": 4596,
                   "id": 4600,
-=======
-                      "typeIdentifier": "t_enum$_UserType_$4509",
-                      "typeString": "enum UserType"
-                    }
-                  },
-                  "functionReturnParameters": 4312,
-                  "id": 4316,
->>>>>>> bru_develop_register_page
                   "nodeType": "Return",
                   "src": "964:18:23"
                 }
               ]
             },
             "documentation": {
-<<<<<<< HEAD
               "id": 4589,
-=======
-              "id": 4305,
->>>>>>> bru_develop_register_page
               "nodeType": "StructuredDocumentation",
               "src": "761:130:23",
               "text": " @dev Returns the user type if the user is registered\n @param addr the user address that want check if exists"
             },
             "functionSelector": "6f77926b",
-<<<<<<< HEAD
             "id": 4602,
-=======
-            "id": 4318,
->>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -6214,31 +5832,18 @@
             "nameLocation": "904:7:23",
             "nodeType": "FunctionDefinition",
             "parameters": {
-<<<<<<< HEAD
               "id": 4592,
-=======
-              "id": 4308,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 4591,
-=======
-                  "id": 4307,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "addr",
                   "nameLocation": "920:4:23",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4602,
                   "src": "912:12:23",
-=======
-                  "scope": 4318,
-                  "src": "892:12:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -6246,11 +5851,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-<<<<<<< HEAD
                     "id": 4590,
-=======
-                    "id": 4306,
->>>>>>> bru_develop_register_page
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "912:7:23",
@@ -6266,25 +5867,16 @@
               "src": "911:14:23"
             },
             "returnParameters": {
-<<<<<<< HEAD
               "id": 4596,
-=======
-              "id": 4312,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 4595,
-=======
-                  "id": 4311,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4602,
                   "src": "947:8:23",
                   "stateVariable": false,
@@ -6307,30 +5899,6 @@
                     "src": "947:8:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_enum$_UserType_$4842",
-=======
-                  "scope": 4318,
-                  "src": "927:8:21",
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_enum$_UserType_$4509",
-                    "typeString": "enum UserType"
-                  },
-                  "typeName": {
-                    "id": 4310,
-                    "nodeType": "UserDefinedTypeName",
-                    "pathNode": {
-                      "id": 4309,
-                      "name": "UserType",
-                      "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 4509,
-                      "src": "927:8:21"
-                    },
-                    "referencedDeclaration": 4509,
-                    "src": "927:8:21",
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_enum$_UserType_$4509",
->>>>>>> bru_develop_register_page
                       "typeString": "enum UserType"
                     }
                   },
@@ -6339,24 +5907,15 @@
               ],
               "src": "946:10:23"
             },
-<<<<<<< HEAD
             "scope": 4650,
             "src": "895:93:23",
-=======
-            "scope": 4347,
-            "src": "875:93:21",
->>>>>>> bru_develop_register_page
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-<<<<<<< HEAD
               "id": 4632,
-=======
-              "id": 4345,
->>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "1302:185:23",
               "statements": [
@@ -6364,13 +5923,8 @@
                   "expression": {
                     "components": [
                       {
-<<<<<<< HEAD
                         "hexValue": "554e444546494e4544",
                         "id": 4622,
-=======
-                        "hexValue": "50524f4455434552",
-                        "id": 4336,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6402,11 +5956,7 @@
                       },
                       {
                         "hexValue": "4143544956495354",
-<<<<<<< HEAD
                         "id": 4624,
-=======
-                        "id": 4337,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6422,11 +5972,7 @@
                       },
                       {
                         "hexValue": "52455345415243484552",
-<<<<<<< HEAD
                         "id": 4625,
-=======
-                        "id": 4338,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6442,11 +5988,7 @@
                       },
                       {
                         "hexValue": "444556454c4f504552",
-<<<<<<< HEAD
                         "id": 4626,
-=======
-                        "id": 4339,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6462,11 +6004,7 @@
                       },
                       {
                         "hexValue": "41445649534552",
-<<<<<<< HEAD
                         "id": 4627,
-=======
-                        "id": 4340,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6482,11 +6020,7 @@
                       },
                       {
                         "hexValue": "434f4e5452494255544f52",
-<<<<<<< HEAD
                         "id": 4628,
-=======
-                        "id": 4341,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6502,11 +6036,7 @@
                       },
                       {
                         "hexValue": "494e564553544f52",
-<<<<<<< HEAD
                         "id": 4629,
-=======
-                        "id": 4342,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -6521,11 +6051,7 @@
                         "value": "INVESTOR"
                       }
                     ],
-<<<<<<< HEAD
                     "id": 4630,
-=======
-                    "id": 4343,
->>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -6538,34 +6064,21 @@
                       "typeString": "tuple(literal_string \"UNDEFINED\",literal_string \"PRODUCER\",literal_string \"ACTIVIST\",literal_string \"RESEARCHER\",literal_string \"DEVELOPER\",literal_string \"ADVISER\",literal_string \"CONTRIBUTOR\",literal_string \"INVESTOR\")"
                     }
                   },
-<<<<<<< HEAD
                   "functionReturnParameters": 4621,
                   "id": 4631,
-=======
-                  "functionReturnParameters": 4335,
-                  "id": 4344,
->>>>>>> bru_develop_register_page
                   "nodeType": "Return",
                   "src": "1309:172:23"
                 }
               ]
             },
             "documentation": {
-<<<<<<< HEAD
               "id": 4603,
-=======
-              "id": 4319,
->>>>>>> bru_develop_register_page
               "nodeType": "StructuredDocumentation",
               "src": "994:61:23",
               "text": " @dev Returns the enum UserType of the system"
             },
             "functionSelector": "2fadee0a",
-<<<<<<< HEAD
             "id": 4633,
-=======
-            "id": 4346,
->>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -6573,26 +6086,17 @@
             "nameLocation": "1068:9:23",
             "nodeType": "FunctionDefinition",
             "parameters": {
-<<<<<<< HEAD
               "id": 4604,
-=======
-              "id": 4320,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1077:2:23"
             },
             "returnParameters": {
-<<<<<<< HEAD
               "id": 4621,
-=======
-              "id": 4335,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 4606,
                   "mutability": "mutable",
                   "name": "",
@@ -6621,20 +6125,12 @@
                 {
                   "constant": false,
                   "id": 4608,
-=======
-                  "id": 4322,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1146:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1104:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6645,11 +6141,7 @@
                     "id": 4607,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
                     "src": "1146:6:23",
-=======
-                    "src": "1104:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6664,13 +6156,8 @@
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1168:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1126:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6681,11 +6168,7 @@
                     "id": 4609,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
                     "src": "1168:6:23",
-=======
-                    "src": "1126:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6700,13 +6183,8 @@
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1190:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1148:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6717,11 +6195,7 @@
                     "id": 4611,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
                     "src": "1190:6:23",
-=======
-                    "src": "1148:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6736,13 +6210,8 @@
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1212:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1170:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6753,11 +6222,7 @@
                     "id": 4613,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
                     "src": "1212:6:23",
-=======
-                    "src": "1170:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6772,13 +6237,8 @@
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1234:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1192:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6789,11 +6249,7 @@
                     "id": 4615,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
                     "src": "1234:6:23",
-=======
-                    "src": "1192:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6808,13 +6264,8 @@
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1256:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1214:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6825,11 +6276,7 @@
                     "id": 4617,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
                     "src": "1256:6:23",
-=======
-                    "src": "1214:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6839,22 +6286,13 @@
                 },
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 4620,
-=======
-                  "id": 4334,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 4633,
                   "src": "1278:13:23",
-=======
-                  "scope": 4346,
-                  "src": "1236:13:21",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -6862,17 +6300,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-<<<<<<< HEAD
                     "id": 4619,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1278:6:23",
-=======
-                    "id": 4333,
-                    "name": "string",
-                    "nodeType": "ElementaryTypeName",
-                    "src": "1236:6:21",
->>>>>>> bru_develop_register_page
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -6883,13 +6314,8 @@
               ],
               "src": "1115:183:23"
             },
-<<<<<<< HEAD
             "scope": 4650,
             "src": "1059:428:23",
-=======
-            "scope": 4347,
-            "src": "1039:386:21",
->>>>>>> bru_develop_register_page
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
@@ -7097,13 +6523,8 @@
             "visibility": "internal"
           }
         ],
-<<<<<<< HEAD
         "scope": 4651,
         "src": "321:1315:23"
-=======
-        "scope": 4348,
-        "src": "321:1107:21"
->>>>>>> bru_develop_register_page
       }
     ],
     "src": "37:1601:23"
@@ -7116,21 +6537,12 @@
     "5777": {
       "events": {},
       "links": {},
-<<<<<<< HEAD
       "address": "0xBF3c7345eCf8FDc983b8ca213548036803A40482",
       "transactionHash": "0xe5c502305b66bab3cfcb0110f4d99a0cdc8aaa2f66065ab100d1ec66a58ed876"
     }
   },
   "schemaVersion": "3.4.7",
   "updatedAt": "2022-06-29T23:40:23.124Z",
-=======
-      "address": "0xa050338fDf18aF84275026FAEF4cF9Dcf72b437E",
-      "transactionHash": "0x9e346c4ab852ac9aa1d2e207680d8362b05ae2d081b022ed52afe93b66c625d4"
-    }
-  },
-  "schemaVersion": "3.4.7",
-  "updatedAt": "2022-06-04T03:09:07.026Z",
->>>>>>> bru_develop_register_page
   "networkType": "ethereum",
   "devdoc": {
     "details": "This contract work as a centralized user's system, where all users has your userType here",

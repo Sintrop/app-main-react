@@ -1784,20 +1784,12 @@
   "sourceMap": "131:305:8:-:0;;;;;;;;;;;;;921:32:0;940:12;:10;;;:12;;:::i;:::-;921:18;;;:32;;:::i;:::-;131:305:8;;640:96:4;693:7;719:10;712:17;;640:96;:::o;2270:187:0:-;2343:16;2362:6;;;;;;;;;;;2343:25;;2387:8;2378:6;;:17;;;;;;;;;;;;;;;;;;2441:8;2410:40;;2431:8;2410:40;;;;;;;;;;;;2270:187;;:::o;131:305:8:-;;;;;;;",
   "deployedSourceMap": "131:305:8:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1668:101:0;;;:::i;:::-;;165:45:8;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;1036:85:0;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;217:102:8;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1918:198:0;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;1668:101;1259:12;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;1732:30:::1;1759:1;1732:18;:30::i;:::-;1668:101::o:0;165:45:8:-;;;;;;;;;;;;;;;;;;;;;;:::o;1036:85:0:-;1082:7;1108:6;;;;;;;;;;;1101:13;;1036:85;:::o;217:102:8:-;1259:12:0;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;309:4:8::1;284:13:::0;:22:::1;298:7;284:22;;;;;;;;;;;;;;;;:29;;;;;;;;;;;;;;;;;;217:102:::0;:::o;1918:198:0:-;1259:12;:10;:12::i;:::-;1248:23;;:7;:5;:7::i;:::-;:23;;;1240:68;;;;;;;;;;;;:::i;:::-;;;;;;;;;2026:1:::1;2006:22;;:8;:22;;;;1998:73;;;;;;;;;;;;:::i;:::-;;;;;;;;;2081:28;2100:8;2081:18;:28::i;:::-;1918:198:::0;:::o;640:96:4:-;693:7;719:10;712:17;;640:96;:::o;2270:187:0:-;2343:16;2362:6;;;;;;;;;;;2343:25;;2387:8;2378:6;;:17;;;;;;;;;;;;;;;;;;2441:8;2410:40;;2431:8;2410:40;;;;;;;;;;;;2270:187;;:::o;7:139:31:-;;91:6;78:20;69:29;;107:33;134:5;107:33;:::i;:::-;59:87;;;;:::o;152:262::-;;260:2;248:9;239:7;235:23;231:32;228:2;;;276:1;273;266:12;228:2;319:1;344:53;389:7;380:6;369:9;365:22;344:53;:::i;:::-;334:63;;290:117;218:196;;;;:::o;420:118::-;507:24;525:5;507:24;:::i;:::-;502:3;495:37;485:53;;:::o;544:109::-;625:21;640:5;625:21;:::i;:::-;620:3;613:34;603:50;;:::o;659:366::-;;822:67;886:2;881:3;822:67;:::i;:::-;815:74;;898:93;987:3;898:93;:::i;:::-;1016:2;1011:3;1007:12;1000:19;;805:220;;;:::o;1031:366::-;;1194:67;1258:2;1253:3;1194:67;:::i;:::-;1187:74;;1270:93;1359:3;1270:93;:::i;:::-;1388:2;1383:3;1379:12;1372:19;;1177:220;;;:::o;1403:222::-;;1534:2;1523:9;1519:18;1511:26;;1547:71;1615:1;1604:9;1600:17;1591:6;1547:71;:::i;:::-;1501:124;;;;:::o;1631:210::-;;1756:2;1745:9;1741:18;1733:26;;1769:65;1831:1;1820:9;1816:17;1807:6;1769:65;:::i;:::-;1723:118;;;;:::o;1847:419::-;;2051:2;2040:9;2036:18;2028:26;;2100:9;2094:4;2090:20;2086:1;2075:9;2071:17;2064:47;2128:131;2254:4;2128:131;:::i;:::-;2120:139;;2018:248;;;:::o;2272:419::-;;2476:2;2465:9;2461:18;2453:26;;2525:9;2519:4;2515:20;2511:1;2500:9;2496:17;2489:47;2553:131;2679:4;2553:131;:::i;:::-;2545:139;;2443:248;;;:::o;2697:169::-;;2815:6;2810:3;2803:19;2855:4;2850:3;2846:14;2831:29;;2793:73;;;;:::o;2872:96::-;;2938:24;2956:5;2938:24;:::i;:::-;2927:35;;2917:51;;;:::o;2974:90::-;;3051:5;3044:13;3037:21;3026:32;;3016:48;;;:::o;3070:126::-;;3147:42;3140:5;3136:54;3125:65;;3115:81;;;:::o;3202:225::-;3342:34;3338:1;3330:6;3326:14;3319:58;3411:8;3406:2;3398:6;3394:15;3387:33;3308:119;:::o;3433:182::-;3573:34;3569:1;3561:6;3557:14;3550:58;3539:76;:::o;3621:122::-;3694:24;3712:5;3694:24;:::i;:::-;3687:5;3684:35;3674:2;;3733:1;3730;3723:12;3674:2;3664:79;:::o",
   "source": "\r\n// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\r\n\r\ncontract Callable is Ownable {\r\n  mapping(address => bool) public allowedCaller;\r\n\r\n  function newAllowedCaller(address allowed) public onlyOwner {\r\n    allowedCaller[allowed] = true;\r\n  }\r\n\r\n  modifier mustBeAllowedCaller() {\r\n    require(allowedCaller[msg.sender], \"Not allowed caller\");\r\n    _;\r\n  }\r\n}\r\n",
-<<<<<<< HEAD
   "sourcePath": "C:\\Users\\emano\\Documents\\Sintrop\\core-contracts\\contracts\\Callable.sol",
-=======
-  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts\\contracts\\Callable.sol",
->>>>>>> bru_develop_register_page
   "ast": {
     "absolutePath": "project:/contracts/Callable.sol",
     "exportedSymbols": {
       "Callable": [
-<<<<<<< HEAD
         1588
-=======
-        1414
->>>>>>> bru_develop_register_page
       ],
       "Context": [
         817
@@ -1806,20 +1798,12 @@
         104
       ]
     },
-<<<<<<< HEAD
     "id": 1589,
-=======
-    "id": 1415,
->>>>>>> bru_develop_register_page
     "license": "GPL-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-<<<<<<< HEAD
         "id": 1554,
-=======
-        "id": 1380,
->>>>>>> bru_develop_register_page
         "literals": [
           "solidity",
           ">=",
@@ -1835,17 +1819,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/access/Ownable.sol",
         "file": "@openzeppelin/contracts/access/Ownable.sol",
-<<<<<<< HEAD
         "id": 1555,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 1589,
-=======
-        "id": 1381,
-        "nameLocation": "-1:-1:-1",
-        "nodeType": "ImportDirective",
-        "scope": 1415,
->>>>>>> bru_develop_register_page
         "sourceUnit": 105,
         "src": "75:52:8",
         "symbolAliases": [],
@@ -1856,21 +1833,13 @@
         "baseContracts": [
           {
             "baseName": {
-<<<<<<< HEAD
               "id": 1556,
-=======
-              "id": 1382,
->>>>>>> bru_develop_register_page
               "name": "Ownable",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 104,
               "src": "152:7:8"
             },
-<<<<<<< HEAD
             "id": 1557,
-=======
-            "id": 1383,
->>>>>>> bru_develop_register_page
             "nodeType": "InheritanceSpecifier",
             "src": "152:7:8"
           }
@@ -1881,15 +1850,9 @@
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-<<<<<<< HEAD
         "id": 1588,
         "linearizedBaseContracts": [
           1588,
-=======
-        "id": 1414,
-        "linearizedBaseContracts": [
-          1414,
->>>>>>> bru_develop_register_page
           104,
           817
         ],
@@ -1900,22 +1863,13 @@
           {
             "constant": false,
             "functionSelector": "72eb8caf",
-<<<<<<< HEAD
             "id": 1561,
-=======
-            "id": 1387,
->>>>>>> bru_develop_register_page
             "mutability": "mutable",
             "name": "allowedCaller",
             "nameLocation": "197:13:8",
             "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
             "scope": 1588,
             "src": "165:45:8",
-=======
-            "scope": 1414,
-            "src": "165:45:7",
->>>>>>> bru_develop_register_page
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -1923,15 +1877,9 @@
               "typeString": "mapping(address => bool)"
             },
             "typeName": {
-<<<<<<< HEAD
               "id": 1560,
               "keyType": {
                 "id": 1558,
-=======
-              "id": 1386,
-              "keyType": {
-                "id": 1384,
->>>>>>> bru_develop_register_page
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "173:7:8",
@@ -1947,11 +1895,7 @@
                 "typeString": "mapping(address => bool)"
               },
               "valueType": {
-<<<<<<< HEAD
                 "id": 1559,
-=======
-                "id": 1385,
->>>>>>> bru_develop_register_page
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
                 "src": "184:4:8",
@@ -1965,48 +1909,30 @@
           },
           {
             "body": {
-<<<<<<< HEAD
               "id": 1574,
-=======
-              "id": 1400,
->>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "277:42:8",
               "statements": [
                 {
                   "expression": {
-<<<<<<< HEAD
                     "id": 1572,
-=======
-                    "id": 1398,
->>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-<<<<<<< HEAD
                         "id": 1568,
                         "name": "allowedCaller",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 1561,
                         "src": "284:13:8",
-=======
-                        "id": 1394,
-                        "name": "allowedCaller",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 1387,
-                        "src": "284:13:7",
->>>>>>> bru_develop_register_page
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
                         }
                       },
-<<<<<<< HEAD
                       "id": 1570,
                       "indexExpression": {
                         "id": 1569,
@@ -2015,16 +1941,6 @@
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 1563,
                         "src": "298:7:8",
-=======
-                      "id": 1396,
-                      "indexExpression": {
-                        "id": 1395,
-                        "name": "allowed",
-                        "nodeType": "Identifier",
-                        "overloadedDeclarations": [],
-                        "referencedDeclaration": 1389,
-                        "src": "298:7:7",
->>>>>>> bru_develop_register_page
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -2045,11 +1961,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "74727565",
-<<<<<<< HEAD
                       "id": 1571,
-=======
-                      "id": 1397,
->>>>>>> bru_develop_register_page
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2069,35 +1981,21 @@
                       "typeString": "bool"
                     }
                   },
-<<<<<<< HEAD
                   "id": 1573,
-=======
-                  "id": 1399,
->>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "284:29:8"
                 }
               ]
             },
             "functionSelector": "8f93716f",
-<<<<<<< HEAD
             "id": 1575,
-=======
-            "id": 1401,
->>>>>>> bru_develop_register_page
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-<<<<<<< HEAD
                 "id": 1566,
                 "modifierName": {
                   "id": 1565,
-=======
-                "id": 1392,
-                "modifierName": {
-                  "id": 1391,
->>>>>>> bru_develop_register_page
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 46,
@@ -2111,31 +2009,18 @@
             "nameLocation": "226:16:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-<<<<<<< HEAD
               "id": 1564,
-=======
-              "id": 1390,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-<<<<<<< HEAD
                   "id": 1563,
-=======
-                  "id": 1389,
->>>>>>> bru_develop_register_page
                   "mutability": "mutable",
                   "name": "allowed",
                   "nameLocation": "251:7:8",
                   "nodeType": "VariableDeclaration",
-<<<<<<< HEAD
                   "scope": 1575,
                   "src": "243:15:8",
-=======
-                  "scope": 1401,
-                  "src": "243:15:7",
->>>>>>> bru_develop_register_page
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2143,11 +2028,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-<<<<<<< HEAD
                     "id": 1562,
-=======
-                    "id": 1388,
->>>>>>> bru_develop_register_page
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "243:7:8",
@@ -2163,33 +2044,20 @@
               "src": "242:17:8"
             },
             "returnParameters": {
-<<<<<<< HEAD
               "id": 1567,
-=======
-              "id": 1393,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "277:0:8"
             },
-<<<<<<< HEAD
             "scope": 1588,
             "src": "217:102:8",
-=======
-            "scope": 1414,
-            "src": "217:102:7",
->>>>>>> bru_develop_register_page
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-<<<<<<< HEAD
               "id": 1586,
-=======
-              "id": 1412,
->>>>>>> bru_develop_register_page
               "nodeType": "Block",
               "src": "356:77:8",
               "statements": [
@@ -2198,37 +2066,21 @@
                     "arguments": [
                       {
                         "baseExpression": {
-<<<<<<< HEAD
                           "id": 1578,
                           "name": "allowedCaller",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 1561,
                           "src": "371:13:8",
-=======
-                          "id": 1404,
-                          "name": "allowedCaller",
-                          "nodeType": "Identifier",
-                          "overloadedDeclarations": [],
-                          "referencedDeclaration": 1387,
-                          "src": "371:13:7",
->>>>>>> bru_develop_register_page
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                             "typeString": "mapping(address => bool)"
                           }
                         },
-<<<<<<< HEAD
                         "id": 1581,
                         "indexExpression": {
                           "expression": {
                             "id": 1579,
-=======
-                        "id": 1407,
-                        "indexExpression": {
-                          "expression": {
-                            "id": 1405,
->>>>>>> bru_develop_register_page
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -2239,11 +2091,7 @@
                               "typeString": "msg"
                             }
                           },
-<<<<<<< HEAD
                           "id": 1580,
-=======
-                          "id": 1406,
->>>>>>> bru_develop_register_page
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2269,11 +2117,7 @@
                       },
                       {
                         "hexValue": "4e6f7420616c6c6f7765642063616c6c6572",
-<<<<<<< HEAD
                         "id": 1582,
-=======
-                        "id": 1408,
->>>>>>> bru_develop_register_page
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -2299,11 +2143,7 @@
                           "typeString": "literal_string \"Not allowed caller\""
                         }
                       ],
-<<<<<<< HEAD
                       "id": 1577,
-=======
-                      "id": 1403,
->>>>>>> bru_develop_register_page
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -2317,11 +2157,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-<<<<<<< HEAD
                     "id": 1583,
-=======
-                    "id": 1409,
->>>>>>> bru_develop_register_page
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2336,39 +2172,23 @@
                       "typeString": "tuple()"
                     }
                   },
-<<<<<<< HEAD
                   "id": 1584,
-=======
-                  "id": 1410,
->>>>>>> bru_develop_register_page
                   "nodeType": "ExpressionStatement",
                   "src": "363:56:8"
                 },
                 {
-<<<<<<< HEAD
                   "id": 1585,
-=======
-                  "id": 1411,
->>>>>>> bru_develop_register_page
                   "nodeType": "PlaceholderStatement",
                   "src": "426:1:8"
                 }
               ]
             },
-<<<<<<< HEAD
             "id": 1587,
-=======
-            "id": 1413,
->>>>>>> bru_develop_register_page
             "name": "mustBeAllowedCaller",
             "nameLocation": "334:19:8",
             "nodeType": "ModifierDefinition",
             "parameters": {
-<<<<<<< HEAD
               "id": 1576,
-=======
-              "id": 1402,
->>>>>>> bru_develop_register_page
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "353:2:8"
@@ -2378,13 +2198,8 @@
             "visibility": "internal"
           }
         ],
-<<<<<<< HEAD
         "scope": 1589,
         "src": "131:305:8"
-=======
-        "scope": 1415,
-        "src": "131:305:7"
->>>>>>> bru_develop_register_page
       }
     ],
     "src": "39:399:8"
@@ -2395,11 +2210,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-<<<<<<< HEAD
   "updatedAt": "2022-06-29T23:40:02.950Z",
-=======
-  "updatedAt": "2022-06-04T03:08:49.555Z",
->>>>>>> bru_develop_register_page
   "devdoc": {
     "kind": "dev",
     "methods": {
