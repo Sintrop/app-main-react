@@ -1,0 +1,37 @@
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.img-logo{
+    width: 100px;
+    height: 33px;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+.container-item-list{
+    display: flex;
+    border-top: 1px solid #ddd;
+    width: 200px;
+    padding: 1px 15px;
+    align-items: center;
+    transition: 0.3s all;
+}
+
+.container-item-list:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.icon-list{
+    width: 25px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.container-item-list p {
+    font-weight: bold;
+    color: green;
+}

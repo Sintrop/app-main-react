@@ -1,0 +1,10 @@
+.container-header-account{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container-header-account p {
+    font-weight: bold;
+    color: purple;
+}
