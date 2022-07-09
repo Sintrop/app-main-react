@@ -2,7 +2,7 @@ import Web3 from "web3";
 import UserContract from "../data/contracts/abis/UserContract.json";
 import ProducerContract from "../data/contracts/abis/ProducerContract.json";
 import ActivistContract from "../data/contracts/abis/ActivistContract.json";
-
+import { toast } from 'react-toastify';
 
 
 export const loadActivist = async () => {
@@ -81,7 +81,7 @@ export const addActivist = async (
         state,
         city,
         cep
-      ).send( { from: address });
+      ).send( { from: address }).on('error', (error, receipt ) => console.log(error, receipt))
 
       const activists = await activistContract.methods.getActivist(address).call();
       console.log(activists);
@@ -122,7 +122,9 @@ export const addProducer = async (
         state,
         city,
         cep
-      ).send( { from: address });
+      ).send( { from: address }, (error, event ) => { 
+        toast.error(error.message);
+      })
     }
   }
 };

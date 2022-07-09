@@ -1,25 +1,21 @@
-import React, { useState, useEffect } from "react";
-import { addProducer, addActivist,loadActivist } from "../../services/web3Service";
+import React, { useState } from "react";
+import { addProducer, addActivist } from "../../services/registerService";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import "./register.css";
 function Register() {
   const [type, setType] = useState("");
-  const [name, setName] = useState("");
+  const [name, setName] = useState(""); 
   const [documetType, setDocumentType] = useState("");
   const [documetNumber, setDocumentNumber] = useState("");
   const [cep, setCep] = useState("");
   const [state, setState] = useState("");
   const [city, setCity] = useState("");
   const [country, setCountry] = useState("");
-
-
-  useEffect(()=>{
-    loadActivist();
-  },[])
-
-
   async function handleClick(e) {
     e.preventDefault();
-
+    
     switch (type) {
       case "producer":
         await addProducer(
@@ -114,6 +110,17 @@ function Register() {
           Register
         </button>
       </form>
+      <ToastContainer 
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover 
+        />
     </div>
   );
 }
