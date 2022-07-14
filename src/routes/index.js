@@ -10,7 +10,6 @@ export default function Router(){
             <Routes>
                 <Route exact path="/" element={<Login/>}/>
                 <Route exact path="/dashboard/:walletAddress" element={<Dashboard/>}/>
-                <Route exact path="/register" element={<Register/>}/>
             </Routes>
         </BrowserRouter>
     );

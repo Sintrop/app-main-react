@@ -5,26 +5,26 @@ import ActivistContract from "../data/contracts/abis/ActivistContract.json";
 import { toast } from 'react-toastify';
 
 
-export const loadActivist = async () => {
-  const web3 = new Web3(window.ethereum);
-  const activistDataNetwork = ActivistContract.networks["5777"];
-  const activistContractAddress = activistDataNetwork.address;
-  const activistABI = ActivistContract.abi;
-  const address = localStorage.getItem("account")
-  if (activistContractAddress && activistDataNetwork) {
-    await allowedContract(activistContractAddress);
-    const activistContract =  new web3.eth.Contract(
-      activistABI,
-      activistContractAddress
-    );
+// export const loadActivist = async () => {
+//   const web3 = new Web3(window.ethereum);
+//   const activistDataNetwork = ActivistContract.networks["5777"];
+//   const activistContractAddress = activistDataNetwork.address;
+//   const activistABI = ActivistContract.abi;
+//   const address = localStorage.getItem("account")
+//   if (activistContractAddress && activistDataNetwork) {
+//     await allowedContract(activistContractAddress);
+//     const activistContract =  new web3.eth.Contract(
+//       activistABI,
+//       activistContractAddress
+//     );
     
-    if(activistContract){
+//     if(activistContract){
 
-      const activists = await activistContract.methods.getActivist(address).call();
-      console.log(activists);
-    }
-  }
-}
+//       const activists = await activistContract.methods.getActivist(address).call();
+//       console.log(activists);
+//     }
+//   }
+// }
 
 const loadContracts = async () => {
   if (window.ethereum) {
@@ -45,7 +45,6 @@ const loadContracts = async () => {
       return false;
     }
   } else {
-    alert("Precisa instalar o metamask");
     return false;
   }
 };

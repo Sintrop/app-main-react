@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { addProducer, addActivist } from "../../services/registerService";
+import { addProducer, addActivist } from "../../../services/registerService";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
