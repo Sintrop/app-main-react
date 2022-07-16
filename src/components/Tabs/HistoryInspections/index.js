@@ -8,15 +8,18 @@ function HistoryInspections({ walletAddress } ) {
     const inspection = new InspectionsService(walletAddress);
     useEffect(() => {
         inspection.getAllInspections().then( res => {
+          console.log(res);
           setInspections(res);
         });
     }, [])
-
+    
 
   return (
-    <ul>
-        { inspections.length > 0 ? inspections.map(item  => <li key={item.id}> {item.id} </li> ) : ''}
-    </ul>
+    <>
+      <ul>
+          { inspections.length > 0 ? inspections.map(item  => <li key={item.id}> {item.id} </li> ) : ''}
+      </ul>
+    </>
   )
 }
 
