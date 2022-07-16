@@ -28,7 +28,7 @@ class RegisterService {
         activistABI,
         activistContractAddress
       );
-      
+
       if(activistContract){
         await activistContract.methods.addActivist(
           name,
@@ -38,7 +38,9 @@ class RegisterService {
           state,
           city,
           cep
-        ).send( { from: this.address }).on('error', (error, receipt ) => console.log(error, receipt))
+        ).send( { from: this.address, gas: 1500000 }).on('error', (error) => {
+          if(error.stack.includes("User already exists")) toast.error("User already exists");
+        });
       }
     }
   }
@@ -56,7 +58,6 @@ class RegisterService {
   ) {
     const producerDataNetwork = ProducerContract.networks["5777"];
     const producerContractAddress = producerDataNetwork.address;
-    console.log(producerContractAddress)
     const producerABI = ProducerContract.abi;
     if (producerContractAddress && producerDataNetwork) {
       const producerContract =  new this.web3.eth.Contract(
@@ -74,9 +75,9 @@ class RegisterService {
           state,
           city,
           cep
-        ).send( { from: this.address }, (err, result) => {
-          console.log(err, result)
-        });
+        ).send( { from: this.address, gas: 1500000 }).on('error', (error) => {
+          if(error.stack.includes("This producer already exist")) toast.error("This producer already exist");
+        })
       }
     }
   };

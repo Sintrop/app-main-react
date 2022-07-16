@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import RegisterService from "../../../services/registerService";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import 'react-toastify/dist/ReactToastify.min.css';
 
 import "./register.css";
 function Register({ wallet }) {
@@ -49,7 +49,7 @@ function Register({ wallet }) {
       <form>
         <div className="inputGroup">
           <div className="inputControl">
-            <label>Select the type of user you want to registe.</label>
+            <label>Select the type of user you want to register.</label>
             <select
               defaultValue={type}
               onChange={(e) => setType(e.target.value)}
@@ -136,12 +136,12 @@ function Register({ wallet }) {
             />
           </div>
         </div>
-        <button type="submit" onClick={handleClick}>
+        <button className="buttonRegister" type="submit" onClick={handleClick}>
           Register
         </button>
       </form>
       <ToastContainer
-        position="top-right"
+        position="top-left"
         autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
