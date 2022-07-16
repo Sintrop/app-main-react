@@ -7,13 +7,15 @@ function HistoryInspections({ walletAddress } ) {
     const [inspections, setInspections ] = useState([]);
     const inspection = new InspectionsService(walletAddress);
     useEffect(() => {
-        setInspections(inspection.getAllInspections())
+        inspection.getAllInspections().then( res => {
+          setInspections(res);
+        });
     }, [])
 
 
   return (
     <ul>
-        {inspections.map(item  => <li key={item.id}> {item.id} </li> )}
+        { inspections.length > 0 ? inspections.map(item  => <li key={item.id}> {item.id} </li> ) : ''}
     </ul>
   )
 }

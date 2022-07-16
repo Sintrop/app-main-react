@@ -7,7 +7,6 @@ class InspectionsHistoryService {
     constructor(wallet) {
         this.web3 = new Web3(window.ethereum);
         this.wallet = wallet;
-        console.log(this.wallet)
     }
 
 
