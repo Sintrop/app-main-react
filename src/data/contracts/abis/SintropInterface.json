@@ -30,7 +30,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.7.0 <=0.9.0;\n\ninterface SintropInterface {\n  function getProducerApprove(address delegate) external view returns (uint256);\n}\n",
-  "sourcePath": "C:\\Users\\bruno.mestres\\Desktop\\core-contracts-main\\contracts\\SintropInterface.sol",
+  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts-main\\contracts\\SintropInterface.sol",
   "ast": {
     "absolutePath": "project:/contracts/SintropInterface.sol",
     "exportedSymbols": {
@@ -166,8 +166,8 @@
     "version": "0.8.2+commit.661d1103.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-14T18:00:32.091Z",
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-07-15T22:15:37.570Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

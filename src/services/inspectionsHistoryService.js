@@ -3,7 +3,7 @@ import Web3 from "web3";
 import Sintrop from  '../data/contracts/abis/Sintrop.json';
 import ActivistContract from  '../data/contracts/abis/ActivistContract.json';
 import ProducerContract from  '../data/contracts/abis/ProducerContract.json';
-class InspectionsService {
+class InspectionsHistoryService {
     constructor(wallet) {
         this.web3 = new Web3(window.ethereum);
         this.wallet = wallet;
@@ -31,4 +31,4 @@ class InspectionsService {
 
 
 
-export default InspectionsService; 
+export default InspectionsHistoryService; 

@@ -29,7 +29,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.7.0 <=0.9.0;\n\ninterface ProducerInterface {\n  struct Producer {\n    uint256 id;\n    address producerWallet;\n    UserType userType;\n    string name;\n    string document;\n    string documentType;\n    bool recentInspection;\n    uint256 totalRequests;\n    int256 isaScore;\n    TokenApprove tokenApprove;\n    PropertyAddress propertyAddress;\n  }\n\n  enum UserType {\n    PRODUCER,\n    ACTIVIST,\n    RESEARCHER,\n    DEVELOPER,\n    ADVISOR,\n    CONTRIBUTOR,\n    INVESTOR\n  }\n\n  struct TokenApprove {\n    uint256 allowed;\n    bool withdrewToken;\n  }\n\n  struct PropertyAddress {\n    string country;\n    string state;\n    string city;\n    string cep;\n  }\n\n  function addUser(address addr, UserType userType) external;\n}\n",
-  "sourcePath": "C:\\Users\\bruno.mestres\\Desktop\\core-contracts-main\\contracts\\ProducerInterface.sol",
+  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts-main\\contracts\\ProducerInterface.sol",
   "ast": {
     "absolutePath": "project:/contracts/ProducerInterface.sol",
     "exportedSymbols": {
@@ -747,8 +747,8 @@
     "version": "0.8.2+commit.661d1103.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.8",
-  "updatedAt": "2022-07-14T18:00:31.955Z",
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-07-15T22:15:37.481Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

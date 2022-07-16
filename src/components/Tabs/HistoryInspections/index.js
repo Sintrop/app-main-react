@@ -1,5 +1,5 @@
 import React , { useEffect, useState } from "react";
-import InspectionsService from "../../../services/inspectsService";
+import InspectionsService from "../../../services/inspectionsHistoryService";
 
 
 

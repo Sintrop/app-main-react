@@ -63,7 +63,7 @@ export default function Dashboard(){
                 <TabIndicator activeTab={activeTab} wallet={walletAddress}/>
 
                 {activeTab === 'register' && (
-                    <Register/>
+                    <Register wallet={walletAddress}/>
                 )}
 
                 {activeTab === 'isa' && (

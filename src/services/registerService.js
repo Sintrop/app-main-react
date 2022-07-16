@@ -1,139 +1,93 @@
 import Web3 from "web3";
-import UserContract from "../data/contracts/abis/UserContract.json";
 import ProducerContract from "../data/contracts/abis/ProducerContract.json";
 import ActivistContract from "../data/contracts/abis/ActivistContract.json";
 import { toast } from 'react-toastify';
 
 
-// export const loadActivist = async () => {
-//   const web3 = new Web3(window.ethereum);
-//   const activistDataNetwork = ActivistContract.networks["5777"];
-//   const activistContractAddress = activistDataNetwork.address;
-//   const activistABI = ActivistContract.abi;
-//   const address = localStorage.getItem("account")
-//   if (activistContractAddress && activistDataNetwork) {
-//     await allowedContract(activistContractAddress);
-//     const activistContract =  new web3.eth.Contract(
-//       activistABI,
-//       activistContractAddress
-//     );
-    
-//     if(activistContract){
+class RegisterService { 
+  constructor(wallet){
+    this.web3 = new Web3(window.ethereum);
+    this.address = wallet;
+  }
 
-//       const activists = await activistContract.methods.getActivist(address).call();
-//       console.log(activists);
-//     }
-//   }
-// }
-
-const loadContracts = async () => {
-  if (window.ethereum) {
-    const web3 = new Web3(window.ethereum);
-
-    const address = await window.ethereum.request({
-      method: "eth_requestAccounts",
-    });
-    localStorage.setItem("account" , address[0]);
-    const userDataNetwork = UserContract.networks["5777"];
-    const userContractAddress = userDataNetwork.address;
-    const userABI = UserContract.abi;
-    if (userContractAddress && userDataNetwork) {
-      const UserContract = new web3.eth.Contract(userABI, userContractAddress);
+   async addActivist (
+    name,
+    document,
+    documentType,
+    country,
+    state,
+    city,
+    cep
+  
+  ){
+    const activistDataNetwork = ActivistContract.networks["5777"];
+    const activistContractAddress = activistDataNetwork.address;
+    const activistABI = ActivistContract.abi;
+    if (activistContractAddress && activistDataNetwork) {
+      const activistContract =  new this.web3.eth.Contract(
+        activistABI,
+        activistContractAddress
+      );
       
-      return UserContract;
-    } else {
-      return false;
-    }
-  } else {
-    return false;
-  }
-};
-
-export const addActivist = async (
-  name,
-  document,
-  documentType,
-  country,
-  state,
-  city,
-  cep
-
-) => {
-  const web3 = new Web3(window.ethereum);
-  const activistDataNetwork = ActivistContract.networks["5777"];
-  const activistContractAddress = activistDataNetwork.address;
-  const activistABI = ActivistContract.abi;
-  const address = localStorage.getItem("account")
-  if (activistContractAddress && activistDataNetwork) {
-    await allowedContract(activistContractAddress);
-    const activistContract =  new web3.eth.Contract(
-      activistABI,
-      activistContractAddress
-    );
-    
-    if(activistContract){
-      await activistContract.methods.addActivist(
-        name,
-        document,
-        documentType,
-        country,
-        state,
-        city,
-        cep
-      ).send( { from: address }).on('error', (error, receipt ) => console.log(error, receipt))
-
-      const activists = await activistContract.methods.getActivist(address).call();
-      console.log(activists);
+      if(activistContract){
+        await activistContract.methods.addActivist(
+          name,
+          document,
+          documentType,
+          country,
+          state,
+          city,
+          cep
+        ).send( { from: this.address }).on('error', (error, receipt ) => console.log(error, receipt))
+      }
     }
   }
+
+
+  async addProducer (
+    name,
+    document,
+    documentType,
+    country,
+    state,
+    city,
+    cep
+  
+  ) {
+    const producerDataNetwork = ProducerContract.networks["5777"];
+    const producerContractAddress = producerDataNetwork.address;
+    console.log(producerContractAddress)
+    const producerABI = ProducerContract.abi;
+    if (producerContractAddress && producerDataNetwork) {
+      const producerContract =  new this.web3.eth.Contract(
+        producerABI,
+        producerContractAddress
+      );
+      
+      if(producerContract){
+      
+        producerContract.methods.addProducer(
+          name,
+          document,
+          documentType,
+          country,
+          state,
+          city,
+          cep
+        ).send( { from: this.address }, (err, result) => {
+          console.log(err, result)
+        });
+      }
+    }
+  };
+
 }
 
+export default RegisterService;
 
-export const addProducer = async (
-  name,
-  document,
-  documentType,
-  country,
-  state,
-  city,
-  cep
 
-) => {
-  const web3 = new Web3(window.ethereum);
-  const producerDataNetwork = ProducerContract.networks["5777"];
-  const producerContractAddress = producerDataNetwork.address;
-  console.log(producerContractAddress)
-  const producerABI = ProducerContract.abi;
-  const address = localStorage.getItem("account")
-  if (producerContractAddress && producerDataNetwork) {
-    await allowedContract(producerContractAddress);
-    const producerContract =  new web3.eth.Contract(
-      producerABI,
-      producerContractAddress
-    );
-    
-    if(producerContract){
-      producerContract.methods.addProducer(
-        name,
-        document,
-        documentType,
-        country,
-        state,
-        city,
-        cep
-      ).send( { from: address }, (error, event ) => { 
-        toast.error(error.message);
-      })
-    }
-  }
-};
 
-export const allowedContract = async (addressContract) => {
-  const userContract = await loadContracts();
-  const address = localStorage.getItem("account")
-  if (userContract) {
-    console.log(addressContract)
-    userContract.methods.newAllowedCaller(addressContract).send({ from: address});
-    return;
-  }
-};
+
+
+
+

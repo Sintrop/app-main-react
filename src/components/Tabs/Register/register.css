@@ -10,7 +10,7 @@
   width: 870px;
   height: 100%;
   margin-left: 150px;
-  margin-top: 80px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -21,7 +21,7 @@
   width: 200px;
   height: 25px;
   border: 1px solid gray;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .container button{ 
@@ -40,3 +40,22 @@
   color: rgb(204, 37, 226, 0.7);
   border-color: rgb(204, 37, 226, 0.5);
 }
+
+.inputGroup {
+  display: flex;
+}
+
+.inputGroup .inputControl{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+
+.inputControl label{
+  margin:5% 0;
+}
+
+/* .inputGroup label {
+  display:;
+} */
