@@ -11,16 +11,16 @@ class InspectionsHistoryService {
     }
 
 
-    // async createInpsection() {
+    async createInspection() {
 
-    //     if (this.sintropContractAddress && this.sintropDataNetwork) {
-    //         const SintropContract = new this.web3.eth.Contract(this.sintroptABI, this.sintropContractAddress);
-    //         await SintropContract.methods.requestInspection().send({ from: this.wallet })
-    //             .then(result => console.log(result))
-    //             .catch(error => console.log(error));
+        if (this.sintropContractAddress && this.sintropDataNetwork) {
+            const SintropContract = new this.web3.eth.Contract(this.sintroptABI, this.sintropContractAddress);
+            await SintropContract.methods.requestInspection().send({ from: this.wallet })
+                .then(result => console.log(result))
+                .catch(error => console.log(error));
 
-    //       } 
-    // }
+          } 
+    }
 
     async getAllInspections(){
 

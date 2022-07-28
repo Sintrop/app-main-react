@@ -21,7 +21,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.2+commit.661d1103\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"delegate\",\"type\":\"address\"}],\"name\":\"getProducerApprove\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SintropInterface.sol\":\"SintropInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SintropInterface.sol\":{\"keccak256\":\"0xb37b18d358d1e3f233c80074769ded8b7a757823d32143f09143327b82fb834a\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://033d193eea0e1436fb304537373e7f8b67bc1f9c348e7c7b96d4e73c8a62227c\",\"dweb:/ipfs/QmRe6mTQnnuAdXKqJpvHnN5EivWShyzr7CJ4rtDEepQ5iw\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.2+commit.661d1103\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"delegate\",\"type\":\"address\"}],\"name\":\"getProducerApprove\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SintropInterface.sol\":\"SintropInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SintropInterface.sol\":{\"keccak256\":\"0x8a5056b388214b94cd1586e008a9642731bea8df411af5340978cfdea88a7d72\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://1a040bd58b9071a7089e6ef845b63756d565e656a918977cbfde820dcffe08e5\",\"dweb:/ipfs/QmVHfkY4dr5wukYAcMZaUZb2S1b5HdPWhikE9Q2LfmwyJ6\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -29,8 +29,8 @@
   "deployedGeneratedSources": [],
   "sourceMap": "",
   "deployedSourceMap": "",
-  "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity >=0.7.0 <=0.9.0;\n\ninterface SintropInterface {\n  function getProducerApprove(address delegate) external view returns (uint256);\n}\n",
-  "sourcePath": "C:\\Users\\Bruno\\OneDrive\\Área de Trabalho\\core-contracts-main\\contracts\\SintropInterface.sol",
+  "source": "// SPDX-License-Identifier: GPL-3.0\r\npragma solidity >=0.7.0 <=0.9.0;\r\n\r\ninterface SintropInterface {\r\n  function getProducerApprove(address delegate) external view returns (uint256);\r\n}\r\n",
+  "sourcePath": "C:\\Users\\bruno.mestres\\Desktop\\core-contracts\\contracts\\SintropInterface.sol",
   "ast": {
     "absolutePath": "project:/contracts/SintropInterface.sol",
     "exportedSymbols": {
@@ -54,7 +54,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "36:32:23"
+        "src": "37:32:23"
       },
       {
         "abstract": false,
@@ -67,7 +67,7 @@
           4772
         ],
         "name": "SintropInterface",
-        "nameLocation": "80:16:23",
+        "nameLocation": "83:16:23",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -77,7 +77,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "getProducerApprove",
-            "nameLocation": "110:18:23",
+            "nameLocation": "114:18:23",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 4767,
@@ -88,10 +88,10 @@
                   "id": 4766,
                   "mutability": "mutable",
                   "name": "delegate",
-                  "nameLocation": "137:8:23",
+                  "nameLocation": "141:8:23",
                   "nodeType": "VariableDeclaration",
                   "scope": 4771,
-                  "src": "129:16:23",
+                  "src": "133:16:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -102,7 +102,7 @@
                     "id": 4765,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "129:7:23",
+                    "src": "133:7:23",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -112,7 +112,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "128:18:23"
+              "src": "132:18:23"
             },
             "returnParameters": {
               "id": 4770,
@@ -126,7 +126,7 @@
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 4771,
-                  "src": "170:7:23",
+                  "src": "174:7:23",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -137,7 +137,7 @@
                     "id": 4768,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "170:7:23",
+                    "src": "174:7:23",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -146,28 +146,28 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "169:9:23"
+              "src": "173:9:23"
             },
             "scope": 4772,
-            "src": "101:78:23",
+            "src": "105:78:23",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
         "scope": 4773,
-        "src": "70:111:23"
+        "src": "73:113:23"
       }
     ],
-    "src": "36:146:23"
+    "src": "37:151:23"
   },
   "compiler": {
     "name": "solc",
     "version": "0.8.2+commit.661d1103.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.7",
-  "updatedAt": "2022-07-15T22:15:37.570Z",
+  "schemaVersion": "3.4.8",
+  "updatedAt": "2022-07-28T12:00:54.697Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
